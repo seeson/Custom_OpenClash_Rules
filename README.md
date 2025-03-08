@@ -169,7 +169,9 @@ https://api.asailor.org/sub
 
 ## 在 OpenClash 之外的其他软件中是否可用？  
 
-对于 OpenClash 以外的使用环境，可以参考维护者的另一个项目：[Custom_Clash_Rules](https://github.com/Aethersailor/Custom_Clash_Rules)
+本项目的订阅模板，理论上适用于任意支持 GeoSite 规则的 Clash 工具，具体使用方法不作指导。    
+
+对于 OpenClash 以外的使用环境，也可以参考维护者的另一个项目：[Custom_Clash_Rules](https://github.com/Aethersailor/Custom_Clash_Rules)
 
 适用于 iOS 下 Shadowrocket 的规则：https://github.com/Aethersailor/Custom_Shadowrocket_Rules  
 
@@ -222,13 +224,19 @@ Traffic、GB、Expire
 不屏蔽不影响使用，只是会让节点列表看着更整洁一些  
 
 # 其他推荐项目  
-本项目维护者在使用的一些值得推荐的其他项目。  
-## Clash Dash 
+
+本项目维护者在使用的一些值得推荐的其他开发者的项目。  
+
+## Clash Dash  
+
 Clash Dash 是一款在 iOS 下使用原生 SwiftUI 开发的 OpenClash/MihomoTProxy 管理工具。  
+
 点击直达：[Clash-Dash](https://github.com/bin64/Clash-Dash)  
+
 非常漂亮的APP，可以说是 iOS 下最方便最优雅的 Clash 管理方式。
 
 # 贡献者  
+
 <a href="https://github.com/Aethersailor/Custom_OpenClash_Rules/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Aethersailor/Custom_OpenClash_Rules" />
 </a>  
@@ -241,37 +249,37 @@ Clash Dash 是一款在 iOS 下使用原生 SwiftUI 开发的 OpenClash/MihomoTP
 
 以下排名不分先后
 
-- [vernesong / OpenClash](https://github.com/vernesong/OpenClash)
+- [vernesong/OpenClash](https://github.com/vernesong/OpenClash)
 
-- [MetaCubeX / mihomo](https://github.com/MetaCubeX/mihomo)
+- [MetaCubeX/mihomo](https://github.com/MetaCubeX/mihomo)
 
-- [ACL4SSR / ACL4SSR](https://github.com/ACL4SSR/ACL4SSR)
+- [ACL4SSR/ACL4SSR](https://github.com/ACL4SSR/ACL4SSR)
 
 - [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)
 
-- [blackmatrix7 / ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)
+- [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community)
 
-- [v2fly / domain-list-community](https://github.com/v2fly/domain-list-community)
+- [felixonmars/dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list)
 
-- [Loyalsoldier / v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)
+- [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)
 
-- [TraderWukong / demo](https://github.com/TraderWukong/demo)
+- [TraderWukong/demo](https://github.com/TraderWukong/demo)
 
-- [dogfight360 / UsbEAm](https://www.dogfight360.com/blog/18627/)
+- [dogfight360/UsbEAm](https://www.dogfight360.com/blog/18627/)
 
-- [ddgksf2013 / ddgksf2013](https://github.com/ddgksf2013/ddgksf2013)
+- [ddgksf2013/ddgksf2013](https://github.com/ddgksf2013/ddgksf2013)
 
-- [217heidai / adblockfilters](https://github.com/217heidai/adblockfilters)
+- [217heidai/adblockfilters](https://github.com/217heidai/adblockfilters)
 
-- [privacy-protection-tools / anti-AD](https://github.com/privacy-protection-tools/anti-AD)
+- [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD)
 
-- [TG-Twilight / AWAvenue-Ads-Rule](https://github.com/TG-Twilight/AWAvenue-Ads-Rule)
+- [TG-Twilight/AWAvenue-Ads-Rule](https://github.com/TG-Twilight/AWAvenue-Ads-Rule)
 
-- [521xueweihan / GitHub520](https://github.com/521xueweihan/GitHub520)
+- [521xueweihan/GitHub520](https://github.com/521xueweihan/GitHub520)
 
-- [immortalwrt / user-FAQ](https://github.com/immortalwrt/user-FAQ/)
+- [immortalwrt/user-FAQ](https://github.com/immortalwrt/user-FAQ/)
 
-- [ChatGPT / OpenAI](https://chatgpt.com/)
+- [ChatGPT/OpenAI](https://chatgpt.com/)
 
 ***
 
