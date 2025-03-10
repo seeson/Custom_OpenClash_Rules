@@ -74,6 +74,8 @@ DOMAIN-SUFFIX,1996999.xyz
 
 # 音海拾贝
 DOMAIN-SUFFIX,makifx.com
+DOMAIN-SUFFIX,lucida.to
+DOMAIN-SUFFIX,lucida.su
 # MeFun
 IP-CIDR,218.78.7.16/32,no-resolve
 IP-CIDR,98.126.27.164/32,no-resolve
