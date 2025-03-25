@@ -7,3 +7,10 @@ DOMAIN-SUFFIX,rateyourmusic.com
 DOMAIN-KEYWORD,shopify
 DOMAIN-KEYWORD,misha
 DOMAIN-KEYWORD,misha-and-puff
+# 以下规则必须走代理
+DOMAIN-SUFFIX,tktn.at
+DOMAIN-SUFFIX,tktn.be
+# 语音留言地址，需要代理
+DOMAIN-SUFFIX,vm.talkatone.com
+# 贴图服务
+DOMAIN-SUFFIX,tenor.com
