@@ -4,7 +4,10 @@
 # 强制直连域名列表，来自个人收集
 # 此规则文件中的域名会定期 PR 至 Geosite 数据库，并删除已被 Geosite 收录的域名，因此请在支持 Geosite 的软件（如 OpenClash）中使用。
 
-
+DOMAIN-KEYWORD,iill,DIRECT
+#班小二
+DOMAIN-SUFFIX,banxiaoer.com
+DOMAIN-SUFFIX,banxiaoer.net
 # ImmortalWrt 相关
 DOMAIN-SUFFIX,immortalwrt.org
 DOMAIN-SUFFIX,kyarucloud.moe
@@ -61,6 +64,7 @@ DOMAIN-SUFFIX,vumstar.com
 
 # Akamai CDN
 DOMAIN-SUFFIX,akamaihd.net
+DOMAIN-SUFFIX,akamaized.net
 # FinalShell
 IP-CIDR,5.5.5.5/32,no-resolve
 # UniGetUI
@@ -69,7 +73,16 @@ DOMAIN-SUFFIX,powershellgallery.com
 DOMAIN-SUFFIX,pool.ntp.org
 # Dell
 DOMAIN-SUFFIX,dell.com
+# Cloudflare
+# DOMAIN-SUFFIX,cloudflare.com
 
+# PT 下载相关
+# DOMAIN-KEYWORD,tracker
+DOMAIN-SUFFIX,hdkyl.in
+DOMAIN-SUFFIX,hdkylin.top
+DOMAIN-SUFFIX,ilovelemonhd.me
+DOMAIN-SUFFIX,cinefiles.info
+DOMAIN-SUFFIX,rainbowisland.co
 # FLiNG Trainer
 DOMAIN-SUFFIX,flingtrainer.com
 
@@ -82,6 +95,11 @@ DOMAIN-SUFFIX,nn.ci
 DOMAIN-SUFFIX,wwwh.eu.org
 DOMAIN-SUFFIX,1996999.xyz
 # Emby 直连
+
+# 音海拾贝
+DOMAIN-SUFFIX,makifx.com
+DOMAIN-SUFFIX,lucida.to
+DOMAIN-SUFFIX,lucida.su
 # MeFun
 IP-CIDR,218.78.7.16/32,no-resolve
 IP-CIDR,98.126.27.164/32,no-resolve

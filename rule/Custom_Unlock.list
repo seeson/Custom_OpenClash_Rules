@@ -1,0 +1,17 @@
+# NAME: Custom_Unlock
+# AUTHOR: SeesoN
+# REPO: https://github.com/seeson/Custom_OpenClash_Rules
+# 需要使用已解锁的节点连接的网站
+
+DOMAIN-SUFFIX,rateyourmusic.com
+DOMAIN-KEYWORD,shopify
+DOMAIN-KEYWORD,misha
+DOMAIN-KEYWORD,misha-and-puff
+DOMAIN-KEYWORD,soorploom
+# 以下规则必须走代理
+DOMAIN-SUFFIX,tktn.at
+DOMAIN-SUFFIX,tktn.be
+# 语音留言地址，需要代理
+DOMAIN-SUFFIX,vm.talkatone.com
+# 贴图服务
+DOMAIN-SUFFIX,tenor.com
