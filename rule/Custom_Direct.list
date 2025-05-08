@@ -126,7 +126,7 @@ IP-CIDR,108.174.48.100/32,no-resolve
 # 以下是准备向 GeoSite 上游仓库提交 PR 的国内冷门域名，收录后会删除对应内容
 # ---------------------------------------
 # 以下域名待提交 PR
-
+DOMAIN-SUFFIX,tracker.52dic.vip
 # Bangumi番组计划
 DOMAIN-SUFFIX,bgm.tv
 DOMAIN-SUFFIX,chii.in
