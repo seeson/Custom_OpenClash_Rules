@@ -9,9 +9,19 @@ DOMAIN-KEYWORD,shopify
 # DOMAIN-KEYWORD,misha-and-puff
 # DOMAIN-KEYWORD,soorploom
 # 以下规则必须走代理
-DOMAIN-SUFFIX,tktn.at
+DOMAIN-SUFFIX,mobilefuse.com
+DOMAIN-SUFFIX,inmobi.com
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,talkatone.com
+DOMAIN-SUFFIX,kochava.com
 DOMAIN-SUFFIX,tktn.be
-# 语音留言地址，需要代理
-DOMAIN-SUFFIX,vm.talkatone.com
+DOMAIN-SUFFIX,cohere.com
+DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,agkn.com
+DOMAIN-SUFFIX,tktn.at
+IP-CIDR,50.117.27.0/24,no-resolve
+IP-CIDR,69.46.75.0/24,no-resolve
+IP-CIDR,205.164.56.0/24,no-resolve
+IP-CIDR,63.251.124.0/24,no-resolve
 # 贴图服务
 DOMAIN-SUFFIX,tenor.com
