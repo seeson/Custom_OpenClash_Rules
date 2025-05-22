@@ -25,3 +25,7 @@ IP-CIDR,205.164.56.0/24,no-resolve
 IP-CIDR,63.251.124.0/24,no-resolve
 # 贴图服务
 DOMAIN-SUFFIX,tenor.com
+# Cloudflare 验证
+DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN-SUFFIX,a.nel.cloudflare.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
