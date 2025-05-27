@@ -79,12 +79,8 @@ DOMAIN-SUFFIX,rewards.bing.com
 
 # PT 下载相关
 # DOMAIN-KEYWORD,tracker
-DOMAIN-SUFFIX,hddolby.com
-DOMAIN-SUFFIX,hdkyl.in
-DOMAIN-SUFFIX,hdkylin.top
-DOMAIN-SUFFIX,ilovelemonhd.me
+# DOMAIN-SUFFIX,hddolby.com
 DOMAIN-SUFFIX,cinefiles.info
-DOMAIN-SUFFIX,rainbowisland.co
 # FLiNG Trainer
 DOMAIN-SUFFIX,flingtrainer.com
 
