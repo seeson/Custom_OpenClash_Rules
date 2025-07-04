@@ -11,10 +11,13 @@ DOMAIN-SUFFIX,services.googleapis.cn
 DOMAIN-SUFFIX,clientservices.googleapis.com
 DOMAIN-SUFFIX,googleapis.cn
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+# Google 相关
+DOMAIN-SUFFIX,mtalk.google.com
 # PS5 STUN
 DOMAIN-SUFFIX,stun.playstation.net
 # BT/PT相关
 DOMAIN-SUFFIX,acg.rip
+DOMAIN-SUFFIX,lemonhd.club
 DOMAIN-SUFFIX,kickasstorrents.to
 DOMAIN-SUFFIX,kickasstorrents.ws
 DOMAIN-SUFFIX,badasstorrents.com
@@ -33,12 +36,11 @@ DOMAIN-SUFFIX,platformio.org
 DOMAIN-SUFFIX,arduino.cc
 # kox 漫画
 DOMAIN-SUFFIX,kox.moe
-# Google 相关
-DOMAIN-SUFFIX,mtalk.google.com
 # EA Desktop 云同步
 DOMAIN-SUFFIX,cloudsync-prod.s3.us-east-1.amazonaws.com
+# HoYoLAB
+DOMAIN-SUFFIX,hoyolab.com
 # OneDrive 网页版
 DOMAIN-SUFFIX,onedrive.live.com 
 # Centurygame
 DOMAIN-SUFFIX,centurygame.com
-

@@ -138,8 +138,8 @@ DOMAIN-SUFFIX,game.maj-soul.com
 # 以下域名已提交 PR
 
 # PR 至 felixonmars/dnsmasq-china-list
-DOMAIN-SUFFIX,guanyierp.com
-DOMAIN-SUFFIX,chememall.com
+# 海翔登录
+DOMAIN-SUFFIX,seaflysoft.com
 
 # PR 至 v2fly/domain-list-community
 
@@ -147,6 +147,8 @@ DOMAIN-SUFFIX,chememall.com
 # =======================================
 
 # 以下域名已被 GeoSite 收录，定期删除
+#DOMAIN-SUFFIX,guanyierp.com
+#DOMAIN-SUFFIX,chememall.com
 #DOMAIN-SUFFIX,astral-vector.com
 #DOMAIN-SUFFIX,ug.link
 #DOMAIN-SUFFIX,moyubuluo.com
