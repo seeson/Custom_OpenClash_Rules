@@ -1,9 +1,13 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 71
+# UPDATE: 2025-07-13 15:24:02
+# TOTAL: 80
 
 payload:
+  - '*iill,DIRECT*'
+  - '+.banxiaoer.com'
+  - '+.banxiaoer.net'
   - '+.immortalwrt.org'
   - '+.kyarucloud.moe'
   - '+.gh-proxy.com'
@@ -40,7 +44,6 @@ payload:
   - '+.checkipv6.dyndns.org'
   - '+.ifconfig.co'
   - '+.api.myip.com'
-  - '+.giveup.top'
   - '+.ipapi.co'
   - '+.ip6.seeip.org'
   - '+.kit327.com'
@@ -50,10 +53,14 @@ payload:
   - '+.kaspersky.com'
   - '+.kaspersky-labs.com'
   - '+.akamaihd.net'
+  - '+.akamaized.net'
   - '+.powershellgallery.com'
   - '+.pool.ntp.org'
   - '+.dell.com'
   - '+.rewards.bing.com'
+  - '+.cinefiles.info'
+  - '+.invites.fun'
+  - '+.lemonhd.club'
   - '+.flingtrainer.com'
   - '+.ddsrem.com'
   - '+.ipinfo.io'
@@ -61,6 +68,9 @@ payload:
   - '+.nn.ci'
   - '+.wwwh.eu.org'
   - '+.1996999.xyz'
+  - '+.makifx.com'
+  - '+.lucida.to'
+  - '+.lucida.su'
   - '+.sptv.ii00.cc'
   - '+.sgtv.ii00.cc'
   - '+.cn-music.mefun.vip'
