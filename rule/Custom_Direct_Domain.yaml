@@ -1,8 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# UPDATE: 2025-07-11 18:51:27
-# TOTAL: 70
+# TOTAL: 71
 
 payload:
   - '+.immortalwrt.org'
@@ -41,6 +40,7 @@ payload:
   - '+.checkipv6.dyndns.org'
   - '+.ifconfig.co'
   - '+.api.myip.com'
+  - '+.giveup.top'
   - '+.ipapi.co'
   - '+.ip6.seeip.org'
   - '+.kit327.com'

@@ -36,21 +36,30 @@ jobs:
           for pair in "${FILES_TO_PROCESS[@]}"; do
             input_file="${pair%%:*}"
             output_file="${pair##*:}"
+            commit_made=false
 
             if [[ -f "$input_file" ]]; then
               echo "Processing $input_file -> $output_file"
 
-              # 第一轮处理：删除行和行内内容
-              awk '!/^custom_proxy_group=♻️ 自动选择/ && !/^custom_proxy_group=🌐 其他地区/ {
-                gsub(/`?\[\]♻️ 自动选择/, "")
-                gsub(/`?\[\]🌐 其他地区/, "")
-                print
-              }' "$input_file" > "$output_file.tmp"
+              # 第一轮处理：直接复制文件（不再删除任何分组）
+              cp "$input_file" "$output_file.tmp"
 
               # 第二轮处理：插入注释
-              awk '{print} /^;节点地区分组/ {print ";Smart 内核专用模板，节点分组仅保留地区分组"}' "$output_file.tmp" > "$output_file"
+              awk '{print} /^;节点地区分组/ {print ";Smart 内核专用模板"}' "$output_file.tmp" > "$output_file.tmp2"
 
-              rm "$output_file.tmp"
+              # 第三轮处理：替换url-test为smart
+              sed 's/url-test/smart/g' "$output_file.tmp2" > "$output_file.tmp3"
+
+              # 第四轮处理：替换smart行末尾的参数
+              sed 's/`300,,50$/`300`uselightgbm=true`collectdata=false`strategy=sticky-sessions`policy-priority=""/g' "$output_file.tmp3" > "$output_file.tmp4"
+
+              # 第五轮处理：替换节点和地区为智能
+              sed 's/节点`/智能`/g; s/地区`/智能`/g' "$output_file.tmp4" > "$output_file.tmp5"
+
+              # 第六轮处理：替换自动选择为自动智能
+              sed 's/自动选择/自动智能/g' "$output_file.tmp5" > "$output_file"
+
+              rm "$output_file.tmp" "$output_file.tmp2" "$output_file.tmp3" "$output_file.tmp4" "$output_file.tmp5"
 
               echo "Generated $output_file"
 
@@ -60,6 +69,7 @@ jobs:
                 echo "Changes detected in $output_file, committing..."
                 git commit -m "Generate $(basename "$output_file") based on $(basename "$input_file")"
                 commit_flag=1
+                commit_made=true
               else
                 echo "No changes detected in $output_file, skipping commit."
                 git reset "$output_file"
