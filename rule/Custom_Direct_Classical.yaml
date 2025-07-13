@@ -1,9 +1,12 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 75
+# TOTAL: 85
 
 payload:
+  - DOMAIN-KEYWORD,iill,DIRECT
+  - DOMAIN-SUFFIX,banxiaoer.com
+  - DOMAIN-SUFFIX,banxiaoer.net
   - DOMAIN-SUFFIX,immortalwrt.org
   - DOMAIN-SUFFIX,kyarucloud.moe
   - DOMAIN-SUFFIX,gh-proxy.com
@@ -50,10 +53,14 @@ payload:
   - DOMAIN-SUFFIX,kaspersky.com
   - DOMAIN-SUFFIX,kaspersky-labs.com
   - DOMAIN-SUFFIX,akamaihd.net
+  - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-SUFFIX,powershellgallery.com
   - DOMAIN-SUFFIX,pool.ntp.org
   - DOMAIN-SUFFIX,dell.com
   - DOMAIN-SUFFIX,rewards.bing.com
+  - DOMAIN-SUFFIX,cinefiles.info
+  - DOMAIN-SUFFIX,invites.fun
+  - DOMAIN-SUFFIX,lemonhd.club
   - DOMAIN-SUFFIX,flingtrainer.com
   - DOMAIN-SUFFIX,ddsrem.com
   - DOMAIN-SUFFIX,ipinfo.io
@@ -61,6 +68,9 @@ payload:
   - DOMAIN-SUFFIX,nn.ci
   - DOMAIN-SUFFIX,wwwh.eu.org
   - DOMAIN-SUFFIX,1996999.xyz
+  - DOMAIN-SUFFIX,makifx.com
+  - DOMAIN-SUFFIX,lucida.to
+  - DOMAIN-SUFFIX,lucida.su
   - DOMAIN-SUFFIX,sptv.ii00.cc
   - DOMAIN-SUFFIX,sgtv.ii00.cc
   - DOMAIN-SUFFIX,cn-music.mefun.vip
