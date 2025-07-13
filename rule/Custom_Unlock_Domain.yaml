@@ -1,0 +1,14 @@
+# Generated from rule/Custom_Unlock.list
+# REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
+# SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Unlock.list
+# TOTAL: 8
+
+payload:
+  - '+.rateyourmusic.com'
+  - '*misha*'
+  - '*misha-and-puff*'
+  - '*soorploom*'
+  - '+.tenor.com'
+  - '+.cloudflare-dns.com'
+  - '+.a.nel.cloudflare.com'
+  - '+.challenges.cloudflare.com'
