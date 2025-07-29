@@ -4,15 +4,15 @@
 # TOTAL: 12
 
 payload:
-  - DOMAIN-SUFFIX,rateyourmusic.com
   - DOMAIN-KEYWORD,misha
   - DOMAIN-KEYWORD,misha-and-puff
   - DOMAIN-KEYWORD,soorploom
-  - DOMAIN-SUFFIX,tenor.com
-  - DOMAIN-SUFFIX,cloudflare-dns.com
   - DOMAIN-SUFFIX,a.nel.cloudflare.com
   - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - IP-CIDR,50.117.27.0/24,no-resolve
-  - IP-CIDR,69.46.75.0/24,no-resolve
+  - DOMAIN-SUFFIX,cloudflare-dns.com
+  - DOMAIN-SUFFIX,rateyourmusic.com
+  - DOMAIN-SUFFIX,tenor.com
   - IP-CIDR,205.164.56.0/24,no-resolve
+  - IP-CIDR,50.117.27.0/24,no-resolve
   - IP-CIDR,63.251.124.0/24,no-resolve
+  - IP-CIDR,69.46.75.0/24,no-resolve
