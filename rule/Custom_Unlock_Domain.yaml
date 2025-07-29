@@ -4,11 +4,11 @@
 # TOTAL: 8
 
 payload:
-  - '+.rateyourmusic.com'
   - '*misha*'
   - '*misha-and-puff*'
   - '*soorploom*'
-  - '+.tenor.com'
-  - '+.cloudflare-dns.com'
   - '+.a.nel.cloudflare.com'
   - '+.challenges.cloudflare.com'
+  - '+.cloudflare-dns.com'
+  - '+.rateyourmusic.com'
+  - '+.tenor.com'
