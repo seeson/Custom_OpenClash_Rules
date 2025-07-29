@@ -120,6 +120,15 @@ DOMAIN-SUFFIX,chii.in
 DOMAIN-SUFFIX,bangumi.tv
 # 肥羊 All in One
 DOMAIN-SUFFIX,freetv.top
+# Younoplus
+DOMAIN-SUFFIX,plusjp1.younoyes.com
+DOMAIN-SUFFIX,plusde1.younoyes.com
+DOMAIN-SUFFIX,plusus1.younoyes.com
+DOMAIN-SUFFIX,plusus2.younoyes.com
+DOMAIN-SUFFIX,plusus3.younoyes.com
+DOMAIN-SUFFIX,plushk1.younoyes.com
+DOMAIN-SUFFIX,plushk2.younoyes.com
+DOMAIN-SUFFIX,plushk3.younoyes.com
 
 
 # 游戏类规则
@@ -131,19 +140,133 @@ DOMAIN-SUFFIX,game.maj-soul.com
 # =======================================
 # 以下是应当直连的冷门国内域名规则
 # =======================================
+
+# ---------------------------------------
+# 以下是无法提交上游的域名
+#----------------------------------------
+# add by Telegram user: Coco / Date: 2025-07-23 22:58:43
+DOMAIN-SUFFIX,xdqtech.com
+# add by Telegram user: Aethersailor / Date: 2025-07-23 16:31:37
+DOMAIN-SUFFIX,chaz.fun
+# 视频网站 / add by Telegram user: jiro / Date:2025-07-22 12:04:55
+DOMAIN-SUFFIX,dushe1.app
+# add by Telegram user: Aethersailor / Date: 2025-07-23 00:20:38
+DOMAIN-SUFFIX,jxpp.com
+# add by Telegram user: Aethersailor / Date: 2025-07-27 02:03:58
+DOMAIN-SUFFIX,afuns.me
+# add by Telegram user: 左右 / Date: 2025-07-26 12:31:49
+DOMAIN-SUFFIX,ghcr.io
+
 # ---------------------------------------
 # 以下是准备向 GeoSite 上游仓库提交 PR 的国内冷门域名，收录后会删除对应内容
 # ---------------------------------------
 # 以下域名待提交 PR
-# 希沃学习机
-DOMAIN-SUFFIX,seedpace.com
-DOMAIN-SUFFIX,qiaoxuesi.com
+
+
 # ---------------------------------------
 # 以下域名已提交 PR
 
 # PR 至 felixonmars/dnsmasq-china-list
+
+# 高驰手表app / add by Telegram user: nmd / Date: 2025-07-28 16:21:27
+DOMAIN-SUFFIX,coros.com
+# add by Telegram user: 你是 / Date: 2025-07-28 14:05:38
+DOMAIN-SUFFIX,baiyishequ.com
+# add by Telegram user: 你是 / Date: 2025-07-28 14:04:57
+DOMAIN-SUFFIX,bdcb.cc
+# add by Telegram user: 你是 / Date: 2025-07-28 14:03:53
+DOMAIN-SUFFIX,xopenbeta.com
+# 国内某骑行设备的网站 / add by Telegram user: 2. / Date: 2025-07-27 23:59:27
+DOMAIN-SUFFIX,igpsport.com
+# add by Telegram user: Aethersailor / Date: 2025-07-27 02:04:15
+DOMAIN-SUFFIX,kmeila.com
+# add by Telegram user: Aethersailor / Date: 2025-07-26 16:01:18
+DOMAIN-SUFFIX,dcgstd.com
+# add by Telegram user: P / Date: 2025-07-26 01:49:54
+DOMAIN-SUFFIX,scbaijia.com
+# add by Telegram user: P / Date: 2025-07-26 01:45:38
+DOMAIN-SUFFIX,7sef.com
+# 专业网站 / add by Telegram user: Aaa / Date: 2025-07-25 22:15:27
+DOMAIN-SUFFIX,u-carloan.com
+# add by Telegram user: chrysaly / Date: 2025-07-25 11:31:30
+DOMAIN-SUFFIX,qianuni.com
 # 海翔登录
 DOMAIN-SUFFIX,seaflysoft.com
+# 希沃学习机
+DOMAIN-SUFFIX,seedpace.com
+DOMAIN-SUFFIX,qiaoxuesi.com
+# 培训网站 / add by Telegram user: chrysaly / Date: 2025-07-24 20:29:33
+DOMAIN-SUFFIX,zhongancloud.com
+# add by Telegram user: Coco / Date: 2025-07-23 22:57:01
+DOMAIN-SUFFIX,tuxing.art
+# 律师在线办公平台 / add by Telegram user: Coco / Date: 2025-07-23 22:56:02
+DOMAIN-SUFFIX,lsbj365.com
+# 好太太家居智能控制服务器 / add by Telegram user: Coco / Date: 2025-07-23 22:54:27
+DOMAIN-SUFFIX,keyoo.com
+# 游戏网站 / add by Telegram user: Leo / Date: 2025-07-23 17:52:55
+DOMAIN-SUFFIX,tcy365.net
+# add by Telegram user: Saulmini / Date: 2025-07-23 09:33:33
+DOMAIN-SUFFIX,belimked.com
+# VPS服务商 / add by Telegram user: Saulmini / Date: 2025-07-23 09:20:11
+DOMAIN-SUFFIX,lanyun.net
+# add by Telegram user: Evan / Date: 2025-07-23 08:50:23
+DOMAIN-SUFFIX,52jiawei.com
+# 教育门户 / add by Telegram user: Evan / Date: 2025-07-23 08:49:41
+DOMAIN-SUFFIX,longmenshuju.com
+# 教育门户 / add by Telegram user: Evan / Date: 2025-07-23 08:49:00
+DOMAIN-SUFFIX,fssbcc.top
+# 民生门户 / add by Telegram user: Evan / Date: 2025-07-23 08:48:17
+DOMAIN-SUFFIX,fowep.com
+# add by Telegram user: Evan / Date: 2025-07-23 08:47:03
+DOMAIN-SUFFIX,tangguobaohe.com
+# add by Telegram user: Evan / Date: 2025-07-23 08:46:35
+DOMAIN-SUFFIX,ddzn.tech
+# add by Telegram user: Evan / Date: 2025-07-23 08:45:37
+DOMAIN-SUFFIX,dingdingzn.com
+# 个人网站 / add by Telegram user: Km / Date: 2025-07-23 03:31:58
+DOMAIN-SUFFIX,737698.xyz
+# 企业博客 用的腾讯云cdn 更推荐直连 / add by Telegram user: 🤗 / Date: 2025-07-23 02:33:17
+DOMAIN-SUFFIX,znnu.com
+# add by Telegram user: Aethersailor / Date: 2025-07-22 23:46:20
+DOMAIN-SUFFIX,jxjktzjt.com
+# add by Telegram user: kk / Date:2025-07-22 20:32:43
+DOMAIN-SUFFIX,snltty.com
+# 设计模型网站 / add by Telegram user: 石 / Date:2025-07-22 18:53:50
+DOMAIN-SUFFIX,znztv.com
+# 商务 / add by Telegram user: lu / Date:2025-07-22 14:02:38
+DOMAIN-SUFFIX,suyur.com
+# 教育 / add by Telegram user: lu / Date:2025-07-22 14:00:43
+DOMAIN-SUFFIX,yunzuoye.net
+# 教育域名 / add by Telegram user: Feng Ninger / Date:2025-07-22 13:56:06
+DOMAIN-SUFFIX,tumukaoyan.com
+# 招聘网站 / add by Telegram user: Feng Ninger / Date:2025-07-22 13:55:25
+DOMAIN-SUFFIX,crtyhr.com
+# 教育 / add by Telegram user: lu / Date:2025-07-22 13:54:28
+DOMAIN-SUFFIX,letaoedu.com
+# 个人网站 / add by Telegram user: Km / Date:2025-07-22 13:53:32
+DOMAIN-SUFFIX,sixloy428.top
+# add by Telegram user: Aethersailor / Date:2025-07-22 11:48:39
+DOMAIN-SUFFIX,hbctic.com
+# add by Telegram user: Aethersailor / Date:2025-07-22 11:41:34
+DOMAIN-SUFFIX,hbcof.com
+# add by Telegram user: Leo / Date:2025-07-22 11:07:09
+DOMAIN-SUFFIX,hexiny.com
+# 云手机 / add by Telegram user: hanshan / Date:2025-07-22 10:36:21
+DOMAIN-SUFFIX,armvm.com
+# 云手机 / add by Telegram user: hanshan / Date:2025-07-22 10:35:28
+DOMAIN-SUFFIX,xiaochuanyun.com
+# add by Telegram user: Aethersailor / Date:2025-07-22 04:14:28
+DOMAIN-SUFFIX,gxnnjidingkeji.top
+# add by Telegram user: Aethersailor / Date:2025-07-21 22:18:39
+DOMAIN-SUFFIX,gsgltz.com
+# Telegram user：Aethersailor / Date:2025-07-21
+DOMAIN-SUFFIX,gsnhcg.com
+# Telegram user：Aethersailor / Date:2025-07-21
+DOMAIN-SUFFIX,gsjkjt.com
+# Telegram user：Aethersailor / Date:2025-07-21
+DOMAIN-SUFFIX,gsstic.com
+# Telegram user：Aethersailor / Date:2025-07-21
+DOMAIN-SUFFIX,sxlljm.com
 
 # PR 至 v2fly/domain-list-community
 # 鸿蒙出境易
