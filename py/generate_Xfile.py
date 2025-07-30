@@ -22,7 +22,7 @@ def get_regions():
 
 # Regex pattern template to remove a region field encapsulated by backticks
 # Matches patterns like `[]🇸🇬 新加坡节点`
-pattern_template = r"`\[[^\]]*\]\s*{region}`"
+pattern_template = r"`\[\][^`]*{region}[^`]*`"
 
 
 def generate_Xfile():
@@ -41,10 +41,11 @@ def generate_Xfile():
          open(file2_path, "w", encoding="utf-8") as fout:
         for line in fin:
             if line.startswith("custom_proxy_group="):
+                # Remove each unwanted region field segment
                 for region in regions:
                     pat = pattern_template.format(region=re.escape(region))
                     line = re.sub(pat, "", line)
-                # Clean up extra backticks
+                # Collapse multiple backticks into a single
                 line = re.sub(r"`{2,}", "`", line)
             fout.write(line)
 
