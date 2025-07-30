@@ -20,9 +20,9 @@ def get_regions():
         "土耳其节点"
     ]
 
-# Regex pattern template to remove a region field encapsulated by backticks
-# Matches patterns like `[]🇸🇬 新加坡节点`
-pattern_template = r"`\[\][^`]*{region}[^`]*`"
+# Regex pattern template to remove a region field enclosed by backticks
+# Matches segments like `[]🇸🇬 新加坡节点`
+pattern_template = r"`\[[^\]]*{region}[^\]]*\]`"
 
 
 def generate_Xfile():
@@ -30,23 +30,23 @@ def generate_Xfile():
     Read the input ini file, remove unwanted region fields from custom_proxy_group lines,
     and write the cleaned content to the output file.
     """
-    # Ensure input file exists
     if not os.path.isfile(file1_path):
         print(f"Error: Input file '{file1_path}' does not exist.")
         sys.exit(1)
 
     regions = get_regions()
 
-    with open(file1_path, "r", encoding="utf-8") as fin, \
-         open(file2_path, "w", encoding="utf-8") as fout:
+    with open(file1_path, 'r', encoding='utf-8') as fin, \
+         open(file2_path, 'w', encoding='utf-8') as fout:
         for line in fin:
-            if line.startswith("custom_proxy_group="):
+            if line.startswith('custom_proxy_group='):
                 # Remove each unwanted region field segment
                 for region in regions:
-                    pat = pattern_template.format(region=re.escape(region))
-                    line = re.sub(pat, "", line)
+                    # Compile pattern for each region
+                    pattern = pattern_template.format(region=re.escape(region))
+                    line = re.sub(pattern, '', line)
                 # Collapse multiple backticks into a single
-                line = re.sub(r"`{2,}", "`", line)
+                line = re.sub(r'`{2,}', '`', line)
             fout.write(line)
 
 
