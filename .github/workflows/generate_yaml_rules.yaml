@@ -52,7 +52,7 @@ jobs:
 
               echo "# Generated from ${list_file}" > "$file"
               echo "# REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules" >> "$file"
-              echo "# SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/${list_file}" >> "$file"
+              echo "# SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/${list_file}" >> "$file"
               echo "# TOTAL: ${total}" >> "$file"
               echo "" >> "$file"
               echo "payload:" >> "$file"
