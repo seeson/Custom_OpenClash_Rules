@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 174
+# TOTAL: 179
 
 payload:
   - DOMAIN-KEYWORD,iill,DIRECT
@@ -12,6 +12,7 @@ payload:
   - DOMAIN-SUFFIX,51wanxue.com
   - DOMAIN-SUFFIX,52jiawei.com
   - DOMAIN-SUFFIX,52met.com
+  - DOMAIN-SUFFIX,657192.com
   - DOMAIN-SUFFIX,737698.xyz
   - DOMAIN-SUFFIX,7sef.com
   - DOMAIN-SUFFIX,985hezi.com
@@ -34,6 +35,7 @@ payload:
   - DOMAIN-SUFFIX,chujingapp.com
   - DOMAIN-SUFFIX,cinefiles.info
   - DOMAIN-SUFFIX,cn-music.mefun.vip
+  - DOMAIN-SUFFIX,codeloop.top
   - DOMAIN-SUFFIX,coros.com
   - DOMAIN-SUFFIX,crtyhr.com
   - DOMAIN-SUFFIX,dcgstd.com
@@ -88,10 +90,12 @@ payload:
   - DOMAIN-SUFFIX,hexiny.com
   - DOMAIN-SUFFIX,hf-mirror.com
   - DOMAIN-SUFFIX,hstbroker.com
+  - DOMAIN-SUFFIX,hszq6.com
   - DOMAIN-SUFFIX,hub.crdz.gq
   - DOMAIN-SUFFIX,hub.gitmirror.com
   - DOMAIN-SUFFIX,hub.rat.dev
   - DOMAIN-SUFFIX,hub.xdark.top
+  - DOMAIN-SUFFIX,huikao8.com
   - DOMAIN-SUFFIX,ifconfig.co
   - DOMAIN-SUFFIX,igpsport.com
   - DOMAIN-SUFFIX,immortalwrt.org
@@ -121,6 +125,7 @@ payload:
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN-SUFFIX,mslmc.net
+  - DOMAIN-SUFFIX,mtaokj.com
   - DOMAIN-SUFFIX,myshopex.com
   - DOMAIN-SUFFIX,nn.ci
   - DOMAIN-SUFFIX,ottai.com
