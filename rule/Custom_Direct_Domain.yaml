@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 170
+# TOTAL: 175
 
 payload:
   - '*iill,DIRECT*'
@@ -12,6 +12,7 @@ payload:
   - '+.51wanxue.com'
   - '+.52jiawei.com'
   - '+.52met.com'
+  - '+.657192.com'
   - '+.737698.xyz'
   - '+.7sef.com'
   - '+.985hezi.com'
@@ -34,6 +35,7 @@ payload:
   - '+.chujingapp.com'
   - '+.cinefiles.info'
   - '+.cn-music.mefun.vip'
+  - '+.codeloop.top'
   - '+.coros.com'
   - '+.crtyhr.com'
   - '+.dcgstd.com'
@@ -88,10 +90,12 @@ payload:
   - '+.hexiny.com'
   - '+.hf-mirror.com'
   - '+.hstbroker.com'
+  - '+.hszq6.com'
   - '+.hub.crdz.gq'
   - '+.hub.gitmirror.com'
   - '+.hub.rat.dev'
   - '+.hub.xdark.top'
+  - '+.huikao8.com'
   - '+.ifconfig.co'
   - '+.igpsport.com'
   - '+.immortalwrt.org'
@@ -121,6 +125,7 @@ payload:
   - '+.msftconnecttest.com'
   - '+.msftncsi.com'
   - '+.mslmc.net'
+  - '+.mtaokj.com'
   - '+.myshopex.com'
   - '+.nn.ci'
   - '+.ottai.com'
