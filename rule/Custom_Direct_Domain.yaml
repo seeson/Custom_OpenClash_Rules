@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 174
+# TOTAL: 180
 
 payload:
   - '*iill,DIRECT*'
@@ -142,13 +142,16 @@ payload:
   - '+.qiaoxuesi.com'
   - '+.registry.dockermirror.com'
   - '+.rewards.bing.com'
+  - '+.rsfcxq.com'
   - '+.sanligu.top'
+  - '+.sapphiretech.com'
   - '+.scbaijia.com'
   - '+.seaflysoft.com'
   - '+.seedpace.com'
   - '+.sgtv.ii00.cc'
   - '+.sixloy428.top'
   - '+.sksight.com'
+  - '+.snfox.com'
   - '+.snltty.com'
   - '+.sptv.ii00.cc'
   - '+.suyur.com'
@@ -166,6 +169,8 @@ payload:
   - '+.vcltrade.com'
   - '+.warmheart.top'
   - '+.webs.vc'
+  - '+.wewillpro.com'
+  - '+.wlcdn88.com'
   - '+.wwwh.eu.org'
   - '+.xdqtech.com'
   - '+.xiankabao.com'
@@ -174,6 +179,7 @@ payload:
   - '+.xopenbeta.com'
   - '+.yiso.fun'
   - '+.yunzuoye.net'
+  - '+.zeekrline.com'
   - '+.zhongancloud.com'
   - '+.znnu.com'
   - '+.znztv.com'
