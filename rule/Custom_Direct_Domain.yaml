@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 189
+# TOTAL: 192
 
 payload:
   - '*iill,DIRECT*'
@@ -125,6 +125,8 @@ payload:
   - '+.lsbj365.com'
   - '+.lucida.su'
   - '+.lucida.to'
+  - '+.lzcdn27.com'
+  - '+.lzdown27.com'
   - '+.makifx.com'
   - '+.members.3322.org'
   - '+.msftconnecttest.com'
@@ -133,6 +135,7 @@ payload:
   - '+.mtaokj.com'
   - '+.myshopex.com'
   - '+.nn.ci'
+  - '+.nullbr.online'
   - '+.ottai.com'
   - '+.plusde1.younoyes.com'
   - '+.plushk1.younoyes.com'
