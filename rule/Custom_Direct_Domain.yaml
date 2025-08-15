@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 183
+# TOTAL: 189
 
 payload:
   - '*iill,DIRECT*'
@@ -16,6 +16,7 @@ payload:
   - '+.737698.xyz'
   - '+.7sef.com'
   - '+.985hezi.com'
+  - '+.adobe.com'
   - '+.afuns.me'
   - '+.akamaihd.net'
   - '+.akamaized.net'
@@ -28,6 +29,7 @@ payload:
   - '+.bdcb.cc'
   - '+.belimked.com'
   - '+.bgm.tv'
+  - '+.cg3da.com'
   - '+.chaz.fun'
   - '+.checkip.dyndns.org'
   - '+.checkipv6.dyndns.org'
@@ -53,6 +55,7 @@ payload:
   - '+.englibrary.com'
   - '+.epg.aptv.app'
   - '+.epg.v1.mk'
+  - '+.ffhome.com'
   - '+.flingtrainer.com'
   - '+.fowep.com'
   - '+.freetv.top'
@@ -77,6 +80,7 @@ payload:
   - '+.github.site'
   - '+.github.store'
   - '+.giveup.top'
+  - '+.gmya.net'
   - '+.goka.top'
   - '+.gsgltz.com'
   - '+.gsjkjt.com'
@@ -95,6 +99,7 @@ payload:
   - '+.hub.rat.dev'
   - '+.hub.xdark.top'
   - '+.huikao8.com'
+  - '+.icvcs.com'
   - '+.ifconfig.co'
   - '+.igpsport.com'
   - '+.immortalwrt.org'
@@ -171,6 +176,7 @@ payload:
   - '+.vcltrade.com'
   - '+.warmheart.top'
   - '+.webs.vc'
+  - '+.wenyi188.com'
   - '+.wewillpro.com'
   - '+.wlcdn88.com'
   - '+.wwwh.eu.org'
