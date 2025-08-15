@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 193
+# TOTAL: 196
 
 payload:
   - DOMAIN-KEYWORD,iill,DIRECT
@@ -125,6 +125,8 @@ payload:
   - DOMAIN-SUFFIX,lsbj365.com
   - DOMAIN-SUFFIX,lucida.su
   - DOMAIN-SUFFIX,lucida.to
+  - DOMAIN-SUFFIX,lzcdn27.com
+  - DOMAIN-SUFFIX,lzdown27.com
   - DOMAIN-SUFFIX,makifx.com
   - DOMAIN-SUFFIX,members.3322.org
   - DOMAIN-SUFFIX,msftconnecttest.com
@@ -133,6 +135,7 @@ payload:
   - DOMAIN-SUFFIX,mtaokj.com
   - DOMAIN-SUFFIX,myshopex.com
   - DOMAIN-SUFFIX,nn.ci
+  - DOMAIN-SUFFIX,nullbr.online
   - DOMAIN-SUFFIX,ottai.com
   - DOMAIN-SUFFIX,plusde1.younoyes.com
   - DOMAIN-SUFFIX,plushk1.younoyes.com
