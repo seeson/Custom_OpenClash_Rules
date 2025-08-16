@@ -1,12 +1,13 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 196
+# TOTAL: 200
 
 payload:
   - DOMAIN-KEYWORD,iill,DIRECT
   - DOMAIN-KEYWORD,quickconnect
   - DOMAIN-KEYWORD,synology
+  - DOMAIN-SUFFIX,03241119.xyz
   - DOMAIN-SUFFIX,112114.xyz
   - DOMAIN-SUFFIX,1996999.xyz
   - DOMAIN-SUFFIX,51wanxue.com
@@ -99,6 +100,7 @@ payload:
   - DOMAIN-SUFFIX,hub.rat.dev
   - DOMAIN-SUFFIX,hub.xdark.top
   - DOMAIN-SUFFIX,huikao8.com
+  - DOMAIN-SUFFIX,hwbim.com
   - DOMAIN-SUFFIX,icvcs.com
   - DOMAIN-SUFFIX,ifconfig.co
   - DOMAIN-SUFFIX,igpsport.com
@@ -190,6 +192,8 @@ payload:
   - DOMAIN-SUFFIX,xn--4kq62z5rby2qupq9ub.top
   - DOMAIN-SUFFIX,xopenbeta.com
   - DOMAIN-SUFFIX,yiso.fun
+  - DOMAIN-SUFFIX,yongyu.xyz
+  - DOMAIN-SUFFIX,yooc.me
   - DOMAIN-SUFFIX,yunzuoye.net
   - DOMAIN-SUFFIX,zeekrline.com
   - DOMAIN-SUFFIX,zhongancloud.com
