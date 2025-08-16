@@ -1,12 +1,13 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 192
+# TOTAL: 196
 
 payload:
   - '*iill,DIRECT*'
   - '*quickconnect*'
   - '*synology*'
+  - '+.03241119.xyz'
   - '+.112114.xyz'
   - '+.1996999.xyz'
   - '+.51wanxue.com'
@@ -99,6 +100,7 @@ payload:
   - '+.hub.rat.dev'
   - '+.hub.xdark.top'
   - '+.huikao8.com'
+  - '+.hwbim.com'
   - '+.icvcs.com'
   - '+.ifconfig.co'
   - '+.igpsport.com'
@@ -190,6 +192,8 @@ payload:
   - '+.xn--4kq62z5rby2qupq9ub.top'
   - '+.xopenbeta.com'
   - '+.yiso.fun'
+  - '+.yongyu.xyz'
+  - '+.yooc.me'
   - '+.yunzuoye.net'
   - '+.zeekrline.com'
   - '+.zhongancloud.com'
