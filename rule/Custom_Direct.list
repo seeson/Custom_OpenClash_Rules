@@ -143,8 +143,12 @@ IP-CIDR,108.174.48.100/32,no-resolve
 # 雀魂麻将
 DOMAIN-SUFFIX,game.maj-soul.com
 
+# 软件类规则
+# 软件及服务 / add by Telegram user: rl / Date: 2025-08-14 09:47:11
+DOMAIN-SUFFIX,adobe.com
+
 # 机器人添加域名
-# 以下域名由用户通过机器人添加，无备案且 NS 不属于中国大陆
+# 以下域名由用户通过机器人添加，无备案且 NS 不属于中国大陆，或者属于 .top 域名
 # add by Telegram user: Aethersailor / Date: 2025-07-23 00:20:38
 DOMAIN-SUFFIX,jxpp.com
 # add by Telegram user: Aethersailor / Date: 2025-07-27 02:03:58
@@ -155,6 +159,9 @@ DOMAIN-SUFFIX,sanligu.top
 DOMAIN-SUFFIX,goka.top
 # 华盛通 / add by Telegram user: 真怪誕呀 / Date: 2025-08-01 15:12:21
 DOMAIN-SUFFIX,vbkr.com
+# add by Telegram user: r / Date: 2025-08-14 00:22:00
+DOMAIN-SUFFIX,xn--4kq62z5rby2qupq9ub.top
+
 
 # =======================================
 # 以下是应当直连的冷门国内域名规则
@@ -164,6 +171,28 @@ DOMAIN-SUFFIX,vbkr.com
 # 以下是准备向 GeoSite 上游仓库提交 PR 的国内冷门域名，收录后会注释对应内容
 # ---------------------------------------
 # 以下域名待提交 PR
+# add by Telegram user: Yongyu / Date: 2025-08-17 01:12:13
+DOMAIN-SUFFIX,yongyu.xyz
+# 易班网是高校教育教学等功能社区 / add by Telegram user: 仔 / Date: 2025-08-16 10:02:18
+DOMAIN-SUFFIX,yooc.me
+# add by Telegram user: Yilan / Date: 2025-08-16 09:47:19
+DOMAIN-SUFFIX,hwbim.com
+
+# 2025.8.16 整理完毕
+
+# 影视站 / add by Telegram user: Feng Ninger / Date: 2025-08-11 11:55:42
+DOMAIN-SUFFIX,wlcdn88.com
+# 蓝宝石显卡官网 / add by Telegram user: 💡💡 / Date: 2025-08-07 06:58:20
+DOMAIN-SUFFIX,sapphiretech.com
+
+
+# ---------------------------------------
+# 以下域名已提交 PR
+
+# PR 至 felixonmars/dnsmasq-china-list
+
+# 阿里云域名 / add by Telegram user: EzrAAA / Date: 2025-08-15 22:40:29
+DOMAIN-SUFFIX,03241119.xyz
 # add by Telegram user: 花火 / Date: 2025-08-14 21:01:04
 DOMAIN-SUFFIX,wenyi188.com
 # 鸿蒙智行 / add by Telegram user: rl / Date: 2025-08-14 19:33:16
@@ -174,32 +203,18 @@ DOMAIN-SUFFIX,ffhome.com
 DOMAIN-SUFFIX,gmya.net
 # CG相关资源分享网站 / add by Telegram user: 慧慧 / Date: 2025-08-14 13:51:28
 DOMAIN-SUFFIX,cg3da.com
-# 软件及服务 / add by Telegram user: rl / Date: 2025-08-14 09:47:11
-DOMAIN-SUFFIX,adobe.com
-# add by Telegram user: r / Date: 2025-08-14 00:22:00
-DOMAIN-SUFFIX,xn--4kq62z5rby2qupq9ub.top
 # add by Telegram user: r / Date: 2025-08-13 23:24:39
 DOMAIN-SUFFIX,starlink.uno
 # 换汇小程序 / add by Telegram user: Feng Ninger / Date: 2025-08-13 04:17:49
 DOMAIN-SUFFIX,kuaicha888.com
 # 影视站 / add by Telegram user: Feng Ninger / Date: 2025-08-11 11:56:12
 DOMAIN-SUFFIX,rsfcxq.com
-# 影视站 / add by Telegram user: Feng Ninger / Date: 2025-08-11 11:55:42
-DOMAIN-SUFFIX,wlcdn88.com
 # 微信小程序 / add by Telegram user: EzrAAA / Date: 2025-08-10 19:02:13
 DOMAIN-SUFFIX,snfox.com
 # add by Telegram user: 石 / Date: 2025-08-08 22:48:01
 DOMAIN-SUFFIX,wewillpro.com
 # 极氪app / add by Telegram user: EzrAAA / Date: 2025-08-08 18:08:37
 DOMAIN-SUFFIX,zeekrline.com
-# 蓝宝石显卡官网 / add by Telegram user: 💡💡 / Date: 2025-08-07 06:58:20
-DOMAIN-SUFFIX,sapphiretech.com
-
-
-# ---------------------------------------
-# 以下域名已提交 PR
-
-# PR 至 felixonmars/dnsmasq-china-list
 # 华盛通 / add by Telegram user: 真怪誕呀 / Date: 2025-08-01 15:13:34
 DOMAIN-SUFFIX,vbkhk.com
 # 手机系统优化工具网站 / add by Telegram user: 法兰西 / Date: 2025-08-03 16:34:24
