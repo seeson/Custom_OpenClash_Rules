@@ -6,6 +6,8 @@
 # OpenClash 首页 IP 地址探测
 DOMAIN-SUFFIX,ip.sb
 DOMAIN-SUFFIX,ipify.org
+# nip.io订阅更新
+DOMAIN-SUFFIX,nip.io
 # GooglePlay 相关
 DOMAIN-SUFFIX,services.googleapis.cn
 DOMAIN-SUFFIX,clientservices.googleapis.com
