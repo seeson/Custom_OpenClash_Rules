@@ -39,7 +39,7 @@ def generate_Xfile():
     Read the input ini and process 'custom_proxy_group' lines:
       1) If a line is exactly one of the simple region groups, drop the whole line;
       2) Otherwise, remove the segments in 'regions' (e.g., []🇭🇰 香港节点) and collapse duplicate backticks;
-      3) Additionally, for the '♻️ 自动选择' group, change the regex field to '(🇺🇸|🇨🇦)'.
+      3) Additionally, for the '♻️ 自动选择' group, change the regex field to '(US|Canada)'.
     Write the result to the output file.
     """
     if not os.path.isfile(file1_path):
@@ -66,7 +66,7 @@ def generate_Xfile():
                     parts = line.rstrip('\n').split('`')
                     # parts indices: 0=name, 1=url-test, 2=REGEX, 3=URL, 4=params...
                     if len(parts) >= 3 and parts[1] == 'url-test':
-                        parts[2] = '(🇺🇸|🇨🇦)'
+                        parts[2] = '(US|Canada)'
                         line = '`'.join(parts) + '\n'
 
                 # 2) Remove unwanted region segments inside the line
