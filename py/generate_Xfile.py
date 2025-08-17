@@ -1,4 +1,4 @@
-# 文件路径
+# File paths
 file1_path = "cfg/Custom_Clash.ini"
 file2_path = "cfg/Custom_Clash_X.ini"
 
@@ -17,6 +17,7 @@ regions = [
     "[]🇳🇱 荷兰节点",
     "[]🇹🇷 土耳其节点"
 ]
+
 # List of simple region identifiers to match full-line deletes
 simple_regions = [
     "🇭🇰 香港节点",
@@ -30,12 +31,16 @@ simple_regions = [
     "🇹🇷 土耳其节点"
 ]
 
+# Marker for the auto-select group line
+AUTO_SELECT_PREFIX = "custom_proxy_group=♻️ 自动选择`url-test`"
+
 def generate_Xfile():
     """
-    读取输入 ini，处理 custom_proxy_group 行：
-    1. 如果行仅为某一 simple_region，则删除整行；
-    2. 否则，移除 regions 列表中的字段，并合并多余的反引号；
-    并写入输出文件。
+    Read the input ini and process 'custom_proxy_group' lines:
+      1) If a line is exactly one of the simple region groups, drop the whole line;
+      2) Otherwise, remove the segments in 'regions' (e.g., []🇭🇰 香港节点) and collapse duplicate backticks;
+      3) Additionally, for the '♻️ 自动选择' group, change the regex field to '(🇺🇸|🇨🇦)'.
+    Write the result to the output file.
     """
     if not os.path.isfile(file1_path):
         print(f"Error: Input file '{file1_path}' does not exist.")
@@ -45,7 +50,7 @@ def generate_Xfile():
          open(file2_path, 'w', encoding='utf-8') as fout:
         for line in fin:
             if line.startswith('custom_proxy_group='):
-                # Check for full-line simple region matches
+                # 1) Drop whole line if it is a simple region group definition
                 skip = False
                 for simple in simple_regions:
                     if f"custom_proxy_group={simple}`" in line:
@@ -53,14 +58,26 @@ def generate_Xfile():
                         break
                 if skip:
                     continue
-                # Otherwise, remove detailed segments
+
+                # 3) If this is the auto-select group, rewrite the regex part only
+                # Format example:
+                # custom_proxy_group=♻️ 自动选择`url-test`.*`https://www.gstatic.com/generate_204`300,,50
+                if AUTO_SELECT_PREFIX in line:
+                    parts = line.rstrip('\n').split('`')
+                    # parts indices: 0=name, 1=url-test, 2=REGEX, 3=URL, 4=params...
+                    if len(parts) >= 3 and parts[1] == 'url-test':
+                        parts[2] = '(🇺🇸|🇨🇦)'
+                        line = '`'.join(parts) + '\n'
+
+                # 2) Remove unwanted region segments inside the line
                 for segment in regions:
                     line = line.replace(segment, '')
-                # Collapse multiple backticks into one
+
+                # Collapse duplicate backticks caused by removals
                 while '``' in line:
                     line = line.replace('``', '`')
-            fout.write(line)
 
+            fout.write(line)
 
 if __name__ == "__main__":
     generate_Xfile()
