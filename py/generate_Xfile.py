@@ -79,6 +79,11 @@ def generate_Xfile():
 
             fout.write(line)
 
+            # Append HDDolby rule after the specific line
+            if line.strip() == "ruleset=🎯 全球直连,[]GEOIP,private,no-resolve":
+                fout.write(";为hddolby网站v4直连\n")
+                fout.write("ruleset=Pass,DOMAIN,www.hddolby.com\n")
+                
 if __name__ == "__main__":
     generate_Xfile()
     print(f"File '{file2_path}' has been updated based on '{file1_path}'")
