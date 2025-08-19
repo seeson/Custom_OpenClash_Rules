@@ -49,6 +49,10 @@ def generate_Xfile():
     with open(file1_path, 'r', encoding='utf-8') as fin, \
          open(file2_path, 'w', encoding='utf-8') as fout:
         for line in fin:
+            # 4) Insert V4直连行
+            if line.strip() == "custom_proxy_group=🎯 全球直连`select`[]DIRECT":
+                fout.write("custom_proxy_group=🛫 V4直连`select`(Pass)\n")
+
             if line.startswith('custom_proxy_group='):
                 # 1) Drop whole line if it is a simple region group definition
                 skip = False
@@ -82,7 +86,7 @@ def generate_Xfile():
             # Append HDDolby rule after the specific line
             if line.strip() == "ruleset=🎯 全球直连,[]GEOIP,private,no-resolve":
                 fout.write(";为hddolby网站v4直连\n")
-                fout.write("ruleset=Pass,DOMAIN,www.hddolby.com\n")
+                fout.write("ruleset=🛫 V4直连,clash-classic:https://testingcf.jsdelivr.net/gh/seeson/Custom_OpenClash_Rules@main/rule/hddolby_Classical.yaml,28800\n")
                 
 if __name__ == "__main__":
     generate_Xfile()
