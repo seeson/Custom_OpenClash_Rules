@@ -171,6 +171,8 @@ DOMAIN-SUFFIX,istoreos.com
 DOMAIN-SUFFIX,wlcdn88.com
 # 蓝宝石显卡官网 / add by Telegram user: 💡💡 / Date: 2025-08-07 06:58:20
 DOMAIN-SUFFIX,sapphiretech.com
+# 牛逼云无需富强官网 / add by Telegram user: 真怪誕呀 / Date: 2025-08-23 17:18:18
+DOMAIN-SUFFIX,idsduf.com
 
 # =======================================
 # 以下是应当直连的冷门国内域名规则
@@ -181,13 +183,19 @@ DOMAIN-SUFFIX,sapphiretech.com
 # ---------------------------------------
 # 以下域名待提交 PR
 
-# 2025.8.22 整理完毕
+# 2025.8.23 分类整理完毕
 
 # ---------------------------------------
 # 以下域名已提交 PR
 
 # PR 至 felixonmars/dnsmasq-china-list
 
+# 公益open-webui / add by Telegram user: 真怪誕呀 / Date: 2025-08-23 17:41:37
+DOMAIN-SUFFIX,clivia.fun
+# girigirilove在线追番网站 / add by Telegram user: 真怪誕呀 / Date: 2025-08-23 17:26:28
+DOMAIN-SUFFIX,girigirilove.com
+# 飞桨AI的base_url / add by Telegram user: 真怪誕呀 / Date: 2025-08-23 17:22:59
+DOMAIN-SUFFIX,aistudio-app.com
 # 德佟电子科技（上海）有限公司 / add by Telegram user: Evan / Date: 2025-08-21 21:24:11
 DOMAIN-SUFFIX,dothantech.com
 # 葱米APP家长版 / add by Telegram user: Evan / Date: 2025-08-21 21:23:34
