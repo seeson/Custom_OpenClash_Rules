@@ -46,7 +46,7 @@ jobs:
       - name: Purge jsDelivr Cache
         if: ${{ !cancelled() }}
         env:
-          REPO: Aethersailor/Custom_OpenClash_Rules
+          REPO: seeson/Custom_OpenClash_Rules
         run: |
           echo "Purging jsDelivr cache for $REPO"
 
