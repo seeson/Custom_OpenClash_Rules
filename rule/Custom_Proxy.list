@@ -3,6 +3,8 @@
 # REPO: https://github.com/seeson/Custom_OpenClash_Rules
 # 强制代理列表，来自个人收集
 
+# IPTV
+DOMAIN-SUFFIX,iill.top
 # OpenClash 首页 IP 地址探测
 DOMAIN-SUFFIX,ip.sb
 DOMAIN-SUFFIX,ipify.org
