@@ -86,7 +86,7 @@ def generate_Xfile():
             # Append HDDolby rule after the specific line
             if line.strip() == "ruleset=🎯 全球直连,[]GEOIP,private,no-resolve":
                 fout.write(";为hddolby网站v4直连\n")
-                fout.write("ruleset=🛫 V4直连,clash-classic:https://testingcf.jsdelivr.net/gh/seeson/Custom_OpenClash_Rules@main/rule/hddolby_Classical.yaml,28800\n")
+                fout.write("ruleset=🛫 V4直连,clash-classic:https://cdn.jsdelivr.net/gh/seeson/Custom_OpenClash_Rules@main/rule/hddolby_Classical.yaml,28800\n")
                 
 if __name__ == "__main__":
     generate_Xfile()
