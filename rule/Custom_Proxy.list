@@ -5,6 +5,8 @@
 
 # IPTV
 DOMAIN-SUFFIX,iill.top
+# 音海拾贝
+DOMAIN-SUFFIX,makifx.com
 # OpenClash 首页 IP 地址探测
 DOMAIN-SUFFIX,ip.sb
 DOMAIN-SUFFIX,ipify.org
