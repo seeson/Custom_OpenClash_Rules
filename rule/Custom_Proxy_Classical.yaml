@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Proxy.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Proxy.list
-# TOTAL: 32
+# TOTAL: 33
 
 payload:
   - DOMAIN-KEYWORD,rutracker
@@ -23,6 +23,7 @@ payload:
   - DOMAIN-SUFFIX,kickasstorrents.ws
   - DOMAIN-SUFFIX,kox.moe
   - DOMAIN-SUFFIX,lemonhd.club
+  - DOMAIN-SUFFIX,makifx.com
   - DOMAIN-SUFFIX,mtalk.google.com
   - DOMAIN-SUFFIX,nip.io
   - DOMAIN-SUFFIX,nyaa.si
