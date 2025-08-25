@@ -70,7 +70,7 @@ def generate_Xfile():
                     parts = line.rstrip('\n').split('`')
                     # parts indices: 0=name, 1=url-test, 2=REGEX, 3=URL, 4=params...
                     if len(parts) >= 3 and parts[1] == 'url-test':
-                        parts[2] = '(US|Canada)'
+                        parts[2] = '(US|Canada|美国|加拿大)'
                         line = '`'.join(parts) + '\n'
 
                 # 2) Remove unwanted region segments inside the line
