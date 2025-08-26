@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 212
+# TOTAL: 215
 
 payload:
   - '*quickconnect*'
@@ -37,6 +37,7 @@ payload:
   - '+.chaz.fun'
   - '+.checkip.dyndns.org'
   - '+.checkipv6.dyndns.org'
+  - '+.chenyuxia.com'
   - '+.chii.in'
   - '+.chujingapp.com'
   - '+.cinefiles.info'
@@ -148,6 +149,7 @@ payload:
   - '+.myshopex.com'
   - '+.nn.ci'
   - '+.nullbr.online'
+  - '+.nxog.top'
   - '+.ok321.top'
   - '+.onebuygz.com'
   - '+.ottai.com'
@@ -186,6 +188,7 @@ payload:
   - '+.tumukaoyan.com'
   - '+.tuxing.art'
   - '+.u-carloan.com'
+  - '+.ugdocker.link'
   - '+.vbkhk.com'
   - '+.vbkr.com'
   - '+.vbkrhk.com'
