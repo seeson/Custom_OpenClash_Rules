@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 219
+# TOTAL: 223
 
 payload:
   - DOMAIN,yinhai.aiinyue.com
@@ -9,6 +9,7 @@ payload:
   - DOMAIN-KEYWORD,synology
   - DOMAIN-SUFFIX,03241119.xyz
   - DOMAIN-SUFFIX,112114.xyz
+  - DOMAIN-SUFFIX,115cdn.de
   - DOMAIN-SUFFIX,1996999.xyz
   - DOMAIN-SUFFIX,51wanxue.com
   - DOMAIN-SUFFIX,52jiawei.com
@@ -142,6 +143,7 @@ payload:
   - DOMAIN-SUFFIX,lzcdn27.com
   - DOMAIN-SUFFIX,lzdown27.com
   - DOMAIN-SUFFIX,members.3322.org
+  - DOMAIN-SUFFIX,micu.hk
   - DOMAIN-SUFFIX,mifeng.plus
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,msftncsi.com
@@ -184,8 +186,10 @@ payload:
   - DOMAIN-SUFFIX,starlink.uno
   - DOMAIN-SUFFIX,suyur.com
   - DOMAIN-SUFFIX,sxlljm.com
+  - DOMAIN-SUFFIX,tailgdd.com
   - DOMAIN-SUFFIX,tangguobaohe.com
   - DOMAIN-SUFFIX,tcy365.net
+  - DOMAIN-SUFFIX,thinkerride.com
   - DOMAIN-SUFFIX,tumukaoyan.com
   - DOMAIN-SUFFIX,tuxing.art
   - DOMAIN-SUFFIX,u-carloan.com
