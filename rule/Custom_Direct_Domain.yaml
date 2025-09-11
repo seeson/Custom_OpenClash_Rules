@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 254
+# TOTAL: 256
 
 payload:
   - '*quickconnect*'
@@ -84,6 +84,7 @@ payload:
   - '+.fzwqq.com'
   - '+.gaishitongshu.com'
   - '+.game.maj-soul.com'
+  - '+.gaojiua.com'
   - '+.gdcucc.v1.mk'
   - '+.ggbond.org'
   - '+.gh-proxy.com'
@@ -217,6 +218,7 @@ payload:
   - '+.sxlljm.com'
   - '+.tailgdd.com'
   - '+.tangguobaohe.com'
+  - '+.tclai.top'
   - '+.tcp.pub'
   - '+.tcy365.net'
   - '+.thinkerride.com'
