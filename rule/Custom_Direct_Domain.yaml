@@ -1,9 +1,10 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 256
+# TOTAL: 263
 
 payload:
+  - '*m-team*'
   - '*quickconnect*'
   - '*synology*'
   - '+.03241119.xyz'
@@ -86,6 +87,7 @@ payload:
   - '+.game.maj-soul.com'
   - '+.gaojiua.com'
   - '+.gdcucc.v1.mk'
+  - '+.geektool.top'
   - '+.ggbond.org'
   - '+.gh-proxy.com'
   - '+.gh.con.sh'
@@ -163,6 +165,10 @@ payload:
   - '+.lyilife.com'
   - '+.lzcdn27.com'
   - '+.lzdown27.com'
+  - '+.m-team.cc'
+  - '+.m-team.io'
+  - '+.manfuz.co'
+  - '+.mc-user.com'
   - '+.meishiffx.online'
   - '+.members.3322.org'
   - '+.micu.hk'
@@ -254,6 +260,7 @@ payload:
   - '+.yooc.me'
   - '+.yunzuoye.net'
   - '+.z6e.com'
+  - '+.zctnet.top'
   - '+.zeekrline.com'
   - '+.zhongancloud.com'
   - '+.znnu.com'
