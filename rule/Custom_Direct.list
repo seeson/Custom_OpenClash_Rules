@@ -211,6 +211,8 @@ DOMAIN-SUFFIX,x86pi.com
 DOMAIN-SUFFIX,privateapi.xyz
 # 极氪APP / add by Telegram user: EzrAAA / Date: 2025-09-06 18:01:14
 DOMAIN-SUFFIX,halvie.com
+# add by Telegram user: Lailin / Date: 2025-09-14 12:09:49
+DOMAIN-SUFFIX,geektool.top
 
 # =======================================
 # 以下是应当直连的冷门国内域名规则
@@ -220,16 +222,23 @@ DOMAIN-SUFFIX,halvie.com
 # 以下是准备向 GeoSite 上游仓库提交 PR 的国内冷门域名，收录后会注释对应内容
 # ---------------------------------------
 # 以下域名待提交 PR
-# add by Telegram user: Lailin / Date: 2025-09-14 12:09:49
-DOMAIN-SUFFIX,geektool.top
+# 问卷星 / add by Telegram user: 法兰西 / Date: 2025-09-17 21:06:29
+DOMAIN-SUFFIX,wjx.top
 
-# 2025.9.13 分类整理完毕
+
+# 2025.9.17 分类整理完毕
 
 # ---------------------------------------
 # 以下域名已提交 PR
 
 # PR 至 felixonmars/dnsmasq-china-list
 
+# add by Telegram user: Aethersailor / Date: 2025-09-17 11:19:09
+DOMAIN-SUFFIX,shuqiandiqiu.com
+# 我的世界服务器 / add by Telegram user: 💡💡 / Date: 2025-09-16 10:40:27
+DOMAIN-SUFFIX,oceando.cloud
+# 代理网站 / add by Telegram user: 网猫-工作时间早10-晚11 / Date: 2025-09-15 12:34:42
+DOMAIN-SUFFIX,canghaiip.com
 
 # PR 至 v2fly/domain-list-community
 
