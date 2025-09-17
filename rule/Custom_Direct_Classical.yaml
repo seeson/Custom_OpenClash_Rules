@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 267
+# TOTAL: 271
 
 payload:
   - DOMAIN,yinhai.aiinyue.com
@@ -40,6 +40,7 @@ payload:
   - DOMAIN-SUFFIX,belimked.com
   - DOMAIN-SUFFIX,bgm.tv
   - DOMAIN-SUFFIX,bsbsb.top
+  - DOMAIN-SUFFIX,canghaiip.com
   - DOMAIN-SUFFIX,centbrowser.net
   - DOMAIN-SUFFIX,cg3da.com
   - DOMAIN-SUFFIX,chaxunjiao.com
@@ -187,6 +188,7 @@ payload:
   - DOMAIN-SUFFIX,nn.ci
   - DOMAIN-SUFFIX,nullbr.online
   - DOMAIN-SUFFIX,nxog.top
+  - DOMAIN-SUFFIX,oceando.cloud
   - DOMAIN-SUFFIX,ok321.top
   - DOMAIN-SUFFIX,onebuygz.com
   - DOMAIN-SUFFIX,ottai.com
@@ -214,6 +216,7 @@ payload:
   - DOMAIN-SUFFIX,seaflysoft.com
   - DOMAIN-SUFFIX,seedpace.com
   - DOMAIN-SUFFIX,sgtv.ii00.cc
+  - DOMAIN-SUFFIX,shuqiandiqiu.com
   - DOMAIN-SUFFIX,sixloy428.top
   - DOMAIN-SUFFIX,sksight.com
   - DOMAIN-SUFFIX,snfox.com
@@ -245,6 +248,7 @@ payload:
   - DOMAIN-SUFFIX,webs.vc
   - DOMAIN-SUFFIX,wenyi188.com
   - DOMAIN-SUFFIX,wewillpro.com
+  - DOMAIN-SUFFIX,wjx.top
   - DOMAIN-SUFFIX,wlcdn88.com
   - DOMAIN-SUFFIX,wwwh.eu.org
   - DOMAIN-SUFFIX,x86pi.com
