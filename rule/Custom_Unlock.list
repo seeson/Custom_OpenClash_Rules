@@ -19,3 +19,5 @@ DOMAIN-SUFFIX,tenor.com
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,a.nel.cloudflare.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
+# shop
+DOMAIN-SUFFIX,bonjour-e-shop.com
