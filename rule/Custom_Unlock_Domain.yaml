@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Unlock.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Unlock.list
-# TOTAL: 9
+# TOTAL: 10
 
 payload:
   - '*misha*'
@@ -11,5 +11,6 @@ payload:
   - '+.bonjour-e-shop.com'
   - '+.challenges.cloudflare.com'
   - '+.cloudflare-dns.com'
+  - '+.hextom.com'
   - '+.rateyourmusic.com'
   - '+.tenor.com'
