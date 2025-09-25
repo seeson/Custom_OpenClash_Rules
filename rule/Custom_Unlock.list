@@ -22,3 +22,6 @@ DOMAIN-SUFFIX,challenges.cloudflare.com
 # shop
 DOMAIN-SUFFIX,bonjour-e-shop.com
 DOMAIN-SUFFIX,hextom.com
+# game
+DOMAIN-SUFFIX,nc.com
+DOMAIN-SUFFIX,plaync.com
