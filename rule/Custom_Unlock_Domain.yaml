@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Unlock.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Unlock.list
-# TOTAL: 12
+# TOTAL: 14
 
 payload:
   - '*misha*'
@@ -13,6 +13,8 @@ payload:
   - '+.cloudflare-dns.com'
   - '+.hextom.com'
   - '+.nc.com'
+  - '+.ncupdate.com'
   - '+.plaync.com'
+  - '+.playnccdn.com'
   - '+.rateyourmusic.com'
   - '+.tenor.com'
