@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 303
+# TOTAL: 309
 
 payload:
   - DOMAIN,yinhai.aiinyue.com
@@ -70,6 +70,7 @@ payload:
   - DOMAIN-SUFFIX,dell.com
   - DOMAIN-SUFFIX,dhub.kubesre.xyz
   - DOMAIN-SUFFIX,dingdingzn.com
+  - DOMAIN-SUFFIX,diyiedu.com
   - DOMAIN-SUFFIX,docker.1panel.live
   - DOMAIN-SUFFIX,docker.kejilion.pro
   - DOMAIN-SUFFIX,docker.unsee.tech
@@ -84,6 +85,7 @@ payload:
   - DOMAIN-SUFFIX,epg.v1.mk
   - DOMAIN-SUFFIX,feihengip.com
   - DOMAIN-SUFFIX,feizhiyi.com
+  - DOMAIN-SUFFIX,fengsutb.com
   - DOMAIN-SUFFIX,ffhome.com
   - DOMAIN-SUFFIX,fjpit.com
   - DOMAIN-SUFFIX,flingtrainer.com
@@ -175,6 +177,7 @@ payload:
   - DOMAIN-SUFFIX,leelen.com
   - DOMAIN-SUFFIX,lemonhd.club
   - DOMAIN-SUFFIX,letaoedu.com
+  - DOMAIN-SUFFIX,liunn.com
   - DOMAIN-SUFFIX,longmenshuju.com
   - DOMAIN-SUFFIX,lsbj365.com
   - DOMAIN-SUFFIX,lucida.su
@@ -210,6 +213,7 @@ payload:
   - DOMAIN-SUFFIX,ok321.top
   - DOMAIN-SUFFIX,onebuygz.com
   - DOMAIN-SUFFIX,ottai.com
+  - DOMAIN-SUFFIX,ourschool.cc
   - DOMAIN-SUFFIX,paperang.com
   - DOMAIN-SUFFIX,plusde1.younoyes.com
   - DOMAIN-SUFFIX,plushk1.younoyes.com
@@ -288,6 +292,7 @@ payload:
   - DOMAIN-SUFFIX,xixih.cc
   - DOMAIN-SUFFIX,xn--4kq62z5rby2qupq9ub.top
   - DOMAIN-SUFFIX,xopenbeta.com
+  - DOMAIN-SUFFIX,xxrsm.com
   - DOMAIN-SUFFIX,xzsckj.com
   - DOMAIN-SUFFIX,ydayc.com
   - DOMAIN-SUFFIX,yiso.fun
@@ -300,6 +305,7 @@ payload:
   - DOMAIN-SUFFIX,zeekrline.com
   - DOMAIN-SUFFIX,zhixingyunke.com
   - DOMAIN-SUFFIX,zhongancloud.com
+  - DOMAIN-SUFFIX,zjxhedu.com
   - DOMAIN-SUFFIX,znnu.com
   - DOMAIN-SUFFIX,znztv.com
   - DOMAIN-SUFFIX,zuobiao.press
