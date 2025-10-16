@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Proxy.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Proxy.list
-# TOTAL: 31
+# TOTAL: 32
 
 payload:
   - '*rutracker*'
@@ -14,6 +14,7 @@ payload:
   - '+.clientservices.googleapis.com'
   - '+.cloudsync-prod.s3.us-east-1.amazonaws.com'
   - '+.dmhy.org'
+  - '+.geojs.io'
   - '+.googleapis.cn'
   - '+.hoyolab.com'
   - '+.iill.top'
