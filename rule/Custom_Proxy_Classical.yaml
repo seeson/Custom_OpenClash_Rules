@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Proxy.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Proxy.list
-# TOTAL: 33
+# TOTAL: 34
 
 payload:
   - DOMAIN-KEYWORD,rutracker
@@ -14,6 +14,7 @@ payload:
   - DOMAIN-SUFFIX,clientservices.googleapis.com
   - DOMAIN-SUFFIX,cloudsync-prod.s3.us-east-1.amazonaws.com
   - DOMAIN-SUFFIX,dmhy.org
+  - DOMAIN-SUFFIX,geojs.io
   - DOMAIN-SUFFIX,googleapis.cn
   - DOMAIN-SUFFIX,hoyolab.com
   - DOMAIN-SUFFIX,iill.top
