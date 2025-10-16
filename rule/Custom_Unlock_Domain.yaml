@@ -1,12 +1,9 @@
 # Generated from rule/Custom_Unlock.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Unlock.list
-# TOTAL: 14
+# TOTAL: 11
 
 payload:
-  - '*misha*'
-  - '*misha-and-puff*'
-  - '*soorploom*'
   - '+.a.nel.cloudflare.com'
   - '+.bonjour-e-shop.com'
   - '+.challenges.cloudflare.com'

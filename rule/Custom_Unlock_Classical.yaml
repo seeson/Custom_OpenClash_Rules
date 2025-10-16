@@ -1,12 +1,9 @@
 # Generated from rule/Custom_Unlock.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Unlock.list
-# TOTAL: 18
+# TOTAL: 15
 
 payload:
-  - DOMAIN-KEYWORD,misha
-  - DOMAIN-KEYWORD,misha-and-puff
-  - DOMAIN-KEYWORD,soorploom
   - DOMAIN-SUFFIX,a.nel.cloudflare.com
   - DOMAIN-SUFFIX,bonjour-e-shop.com
   - DOMAIN-SUFFIX,challenges.cloudflare.com
