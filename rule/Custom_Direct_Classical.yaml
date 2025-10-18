@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 309
+# TOTAL: 310
 
 payload:
   - DOMAIN,yinhai.aiinyue.com
@@ -212,6 +212,7 @@ payload:
   - DOMAIN-SUFFIX,oceando.cloud
   - DOMAIN-SUFFIX,ok321.top
   - DOMAIN-SUFFIX,onebuygz.com
+  - DOMAIN-SUFFIX,oojj.de
   - DOMAIN-SUFFIX,ottai.com
   - DOMAIN-SUFFIX,ourschool.cc
   - DOMAIN-SUFFIX,paperang.com
