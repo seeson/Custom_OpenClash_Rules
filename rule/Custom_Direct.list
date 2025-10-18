@@ -242,6 +242,18 @@ DOMAIN-SUFFIX,nhk.or.jp
 # 以下是准备向 GeoSite 上游仓库提交 PR 的国内冷门域名，收录后会注释对应内容
 # ---------------------------------------
 # 以下域名待提交 PR
+# 财经网站 / add by Telegram user: Mouton / Date: 2025-10-18 22:48:47
+DOMAIN-SUFFIX,gangtise.com
+# add by Telegram user: y / Date: 2025-10-18 22:22:04
+DOMAIN-SUFFIX,tozi-cn.top
+# add by Telegram user: Aethersailor / Date: 2025-10-16 18:53:47
+DOMAIN-SUFFIX,saduck.top
+# 国内企业地址 / add by Telegram user: cook / Date: 2025-10-16 17:35:12
+DOMAIN-SUFFIX,shineacc.com
+# add by Telegram user: lei / Date: 2025-10-16 13:27:16
+DOMAIN-SUFFIX,fzvcolco.com
+# 驾校学时APP / add by Telegram user: lei / Date: 2025-10-16 13:26:35
+DOMAIN-SUFFIX,haoxueche.com
 # add by Telegram user: lu / Date: 2025-10-15 10:18:39
 DOMAIN-SUFFIX,liunn.com
 # 教育网站 / add by Telegram user: lu / Date: 2025-10-14 20:39:39
