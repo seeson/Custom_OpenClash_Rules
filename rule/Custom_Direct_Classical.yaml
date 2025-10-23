@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 316
+# TOTAL: 322
 
 payload:
   - DOMAIN,yinhai.aiinyue.com
@@ -23,6 +23,7 @@ payload:
   - DOMAIN-SUFFIX,6v520.net
   - DOMAIN-SUFFIX,737698.xyz
   - DOMAIN-SUFFIX,7sef.com
+  - DOMAIN-SUFFIX,86656.net
   - DOMAIN-SUFFIX,900cha.com
   - DOMAIN-SUFFIX,985hezi.com
   - DOMAIN-SUFFIX,998tool.com
@@ -95,6 +96,7 @@ payload:
   - DOMAIN-SUFFIX,frp-ski.com
   - DOMAIN-SUFFIX,fssbcc.top
   - DOMAIN-SUFFIX,fsytss.com
+  - DOMAIN-SUFFIX,ft07.com
   - DOMAIN-SUFFIX,fzvcolco.com
   - DOMAIN-SUFFIX,fzwqq.com
   - DOMAIN-SUFFIX,gaishitongshu.com
@@ -126,6 +128,7 @@ payload:
   - DOMAIN-SUFFIX,gmya.net
   - DOMAIN-SUFFIX,goka.top
   - DOMAIN-SUFFIX,googoc.com
+  - DOMAIN-SUFFIX,gootho.com
   - DOMAIN-SUFFIX,gseen.com
   - DOMAIN-SUFFIX,gsgltz.com
   - DOMAIN-SUFFIX,gsjkjt.com
@@ -149,6 +152,7 @@ payload:
   - DOMAIN-SUFFIX,hub.xdark.top
   - DOMAIN-SUFFIX,huikao8.com
   - DOMAIN-SUFFIX,hwbim.com
+  - DOMAIN-SUFFIX,hzlawyer.net
   - DOMAIN-SUFFIX,icvcs.com
   - DOMAIN-SUFFIX,idsduf.com
   - DOMAIN-SUFFIX,ifconfig.co
@@ -296,6 +300,7 @@ payload:
   - DOMAIN-SUFFIX,xdtool.com
   - DOMAIN-SUFFIX,xiankabao.com
   - DOMAIN-SUFFIX,xiaochuanyun.com
+  - DOMAIN-SUFFIX,xinghaiwaimai.com
   - DOMAIN-SUFFIX,xixih.cc
   - DOMAIN-SUFFIX,xn--4kq62z5rby2qupq9ub.top
   - DOMAIN-SUFFIX,xopenbeta.com
@@ -310,6 +315,7 @@ payload:
   - DOMAIN-SUFFIX,z6e.com
   - DOMAIN-SUFFIX,zctnet.top
   - DOMAIN-SUFFIX,zeekrline.com
+  - DOMAIN-SUFFIX,zhi10.com
   - DOMAIN-SUFFIX,zhixingyunke.com
   - DOMAIN-SUFFIX,zhongancloud.com
   - DOMAIN-SUFFIX,zjxhedu.com
