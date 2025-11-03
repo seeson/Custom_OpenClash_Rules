@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 332
+# TOTAL: 339
 
 payload:
   - '*m-team*'
@@ -37,6 +37,7 @@ payload:
   - '+.anycubic.com'
   - '+.api.myip.com'
   - '+.armvm.com'
+  - '+.atticus.vip'
   - '+.baiyishequ.com'
   - '+.bangumi.tv'
   - '+.banxiaoer.com'
@@ -44,6 +45,7 @@ payload:
   - '+.bdcb.cc'
   - '+.belimked.com'
   - '+.bgm.tv'
+  - '+.biandangroup.com'
   - '+.bochk.com'
   - '+.boyuemobile.com'
   - '+.bsbsb.top'
@@ -81,6 +83,7 @@ payload:
   - '+.dockerpull.pw'
   - '+.dothantech.com'
   - '+.douqq.com'
+  - '+.dskj-ops.com'
   - '+.dushe1.app'
   - '+.einfo-tech.com'
   - '+.englibrary.com'
@@ -177,6 +180,8 @@ payload:
   - '+.ipinfo.io'
   - '+.ipshu.com'
   - '+.istoreos.com'
+  - '+.jfjt.cc'
+  - '+.jiqw.com'
   - '+.jsdelivr.net'
   - '+.julebu.co'
   - '+.jxjktzjt.com'
@@ -256,6 +261,7 @@ payload:
   - '+.redenmc.com'
   - '+.registry.dockermirror.com'
   - '+.rewards.bing.com'
+  - '+.royqh.net'
   - '+.rsfcxq.com'
   - '+.saduck.top'
   - '+.sanligu.top'
@@ -313,6 +319,7 @@ payload:
   - '+.xdtool.com'
   - '+.xiankabao.com'
   - '+.xiaochuanyun.com'
+  - '+.xiberia.net'
   - '+.xinghaiwaimai.com'
   - '+.xixih.cc'
   - '+.xn--4kq62z5rby2qupq9ub.top'
