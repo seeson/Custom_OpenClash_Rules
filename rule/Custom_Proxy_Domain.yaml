@@ -1,9 +1,10 @@
 # Generated from rule/Custom_Proxy.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Proxy.list
-# TOTAL: 32
+# TOTAL: 33
 
 payload:
+  - '*miguvideo*'
   - '*rutracker*'
   - '*torrentqq*'
   - '+.7pzzv.us'
