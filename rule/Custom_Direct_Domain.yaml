@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 348
+# TOTAL: 359
 
 payload:
   - '*m-team*'
@@ -12,6 +12,7 @@ payload:
   - '+.115cdn.de'
   - '+.1996999.xyz'
   - '+.204cloud.com'
+  - '+.3d-apollo.com'
   - '+.3dwhere.com'
   - '+.4399zmxy.com'
   - '+.51wanxue.com'
@@ -48,6 +49,7 @@ payload:
   - '+.belimked.com'
   - '+.bgm.tv'
   - '+.biandangroup.com'
+  - '+.biaoda.me'
   - '+.bochk.com'
   - '+.boyuemobile.com'
   - '+.bsbsb.top'
@@ -74,6 +76,7 @@ payload:
   - '+.congmiqq.com'
   - '+.coros.com'
   - '+.crtyhr.com'
+  - '+.day.app'
   - '+.dcgstd.com'
   - '+.ddsrem.com'
   - '+.ddzn.tech'
@@ -90,6 +93,7 @@ payload:
   - '+.douqq.com'
   - '+.dskj-ops.com'
   - '+.dushe1.app'
+  - '+.easytier.top'
   - '+.einfo-tech.com'
   - '+.englibrary.com'
   - '+.epg.aptv.app'
@@ -108,6 +112,7 @@ payload:
   - '+.fssbcc.top'
   - '+.fsytss.com'
   - '+.ft07.com'
+  - '+.fuziche.com'
   - '+.fzvcolco.com'
   - '+.fzwqq.com'
   - '+.gaishitongshu.com'
@@ -150,6 +155,7 @@ payload:
   - '+.gxnnjidingkeji.top'
   - '+.gzybao.com'
   - '+.halvie.com'
+  - '+.ham.xin'
   - '+.haoxueche.com'
   - '+.hbcof.com'
   - '+.hbctic.com'
@@ -233,6 +239,7 @@ payload:
   - '+.neihang.net'
   - '+.netzz.net'
   - '+.nhk.or.jp'
+  - '+.nicezhuanye.com'
   - '+.nn.ci'
   - '+.nullbr.online'
   - '+.nxog.top'
@@ -275,6 +282,7 @@ payload:
   - '+.sanligu.top'
   - '+.sapphiretech.com'
   - '+.scbaijia.com'
+  - '+.sct.ftqq.com'
   - '+.seaflysoft.com'
   - '+.seedpace.com'
   - '+.sgtv.ii00.cc'
@@ -302,6 +310,7 @@ payload:
   - '+.thinkerride.com'
   - '+.tool56.com'
   - '+.tozi-cn.top'
+  - '+.tulipsport.com'
   - '+.tumukaoyan.com'
   - '+.tuxing.art'
   - '+.u-carloan.com'
@@ -337,6 +346,7 @@ payload:
   - '+.xzsckj.com'
   - '+.ydayc.com'
   - '+.yiso.fun'
+  - '+.yixc.com'
   - '+.yongyu.xyz'
   - '+.yooc.me'
   - '+.yunzuoye.net'
@@ -350,5 +360,6 @@ payload:
   - '+.zjxhedu.com'
   - '+.znnu.com'
   - '+.znztv.com'
+  - '+.ztytech.com'
   - '+.zuobiao.press'
   - 'yinhai.aiinyue.com'
