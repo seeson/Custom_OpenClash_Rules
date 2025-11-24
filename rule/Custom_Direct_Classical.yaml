@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 363
+# TOTAL: 371
 
 payload:
   - DOMAIN,yinhai.aiinyue.com
@@ -38,6 +38,7 @@ payload:
   - DOMAIN-SUFFIX,akamaihd.net
   - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-SUFFIX,aloys233.top
+  - DOMAIN-SUFFIX,antping.com
   - DOMAIN-SUFFIX,anycubic.com
   - DOMAIN-SUFFIX,api.myip.com
   - DOMAIN-SUFFIX,armvm.com
@@ -160,6 +161,7 @@ payload:
   - DOMAIN-SUFFIX,haoxueche.com
   - DOMAIN-SUFFIX,hbcof.com
   - DOMAIN-SUFFIX,hbctic.com
+  - DOMAIN-SUFFIX,hdbz.net
   - DOMAIN-SUFFIX,hexiny.com
   - DOMAIN-SUFFIX,hf-mirror.com
   - DOMAIN-SUFFIX,hijin.vip
@@ -176,6 +178,7 @@ payload:
   - DOMAIN-SUFFIX,hwjianmo.com
   - DOMAIN-SUFFIX,hwzuku.com
   - DOMAIN-SUFFIX,hzlawyer.net
+  - DOMAIN-SUFFIX,hzqsn.com
   - DOMAIN-SUFFIX,icvcs.com
   - DOMAIN-SUFFIX,idsduf.com
   - DOMAIN-SUFFIX,ifconfig.co
@@ -189,10 +192,11 @@ payload:
   - DOMAIN-SUFFIX,ip159.com
   - DOMAIN-SUFFIX,ip6.seeip.org
   - DOMAIN-SUFFIX,ipapi.co
-  - DOMAIN-SUFFIX,ipinfo.io
   - DOMAIN-SUFFIX,ipshu.com
   - DOMAIN-SUFFIX,istoreos.com
+  - DOMAIN-SUFFIX,itptg.com
   - DOMAIN-SUFFIX,jfjt.cc
+  - DOMAIN-SUFFIX,jh96095.com
   - DOMAIN-SUFFIX,jiqw.com
   - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN-SUFFIX,julebu.co
@@ -208,6 +212,7 @@ payload:
   - DOMAIN-SUFFIX,kuaicha888.com
   - DOMAIN-SUFFIX,kyarucloud.moe
   - DOMAIN-SUFFIX,lanyun.net
+  - DOMAIN-SUFFIX,laogongju.com
   - DOMAIN-SUFFIX,leelen.com
   - DOMAIN-SUFFIX,lemonhd.club
   - DOMAIN-SUFFIX,letaoedu.com
@@ -274,6 +279,7 @@ payload:
   - DOMAIN-SUFFIX,qianxueyunke.com
   - DOMAIN-SUFFIX,qiaoxuesi.com
   - DOMAIN-SUFFIX,qinglue.com
+  - DOMAIN-SUFFIX,qmeng.top
   - DOMAIN-SUFFIX,redenmc.com
   - DOMAIN-SUFFIX,registry.dockermirror.com
   - DOMAIN-SUFFIX,rewards.bing.com
@@ -314,6 +320,7 @@ payload:
   - DOMAIN-SUFFIX,tulipsport.com
   - DOMAIN-SUFFIX,tumukaoyan.com
   - DOMAIN-SUFFIX,tuxing.art
+  - DOMAIN-SUFFIX,twinkstar.com
   - DOMAIN-SUFFIX,u-carloan.com
   - DOMAIN-SUFFIX,ugdocker.link
   - DOMAIN-SUFFIX,ulife.group
@@ -345,6 +352,7 @@ payload:
   - DOMAIN-SUFFIX,xxir.com
   - DOMAIN-SUFFIX,xxrsm.com
   - DOMAIN-SUFFIX,xzsckj.com
+  - DOMAIN-SUFFIX,xzzhtc.com
   - DOMAIN-SUFFIX,ydayc.com
   - DOMAIN-SUFFIX,yiso.fun
   - DOMAIN-SUFFIX,yixc.com
