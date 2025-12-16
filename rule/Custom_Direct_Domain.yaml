@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 373
+# TOTAL: 378
 
 payload:
   - '*m-team*'
@@ -14,6 +14,7 @@ payload:
   - '+.204cloud.com'
   - '+.3d-apollo.com'
   - '+.3dwhere.com'
+  - '+.3gxk.net'
   - '+.4399zmxy.com'
   - '+.51wanxue.com'
   - '+.51zmt.top'
@@ -286,6 +287,7 @@ payload:
   - '+.rewards.bing.com'
   - '+.royqh.net'
   - '+.rsfcxq.com'
+  - '+.ruijie.com'
   - '+.saduck.top'
   - '+.sanligu.top'
   - '+.sapphiretech.com'
@@ -340,6 +342,7 @@ payload:
   - '+.wewillpro.com'
   - '+.wjx.top'
   - '+.wlcdn88.com'
+  - '+.wpurl.cc'
   - '+.wwwh.eu.org'
   - '+.x86pi.com'
   - '+.xbgjw.com'
@@ -350,6 +353,7 @@ payload:
   - '+.xiberia.net'
   - '+.xinghaiwaimai.com'
   - '+.xixih.cc'
+  - '+.xkkapk.com'
   - '+.xn--4kq62z5rby2qupq9ub.top'
   - '+.xopenbeta.com'
   - '+.xxir.com'
@@ -368,6 +372,7 @@ payload:
   - '+.zctnet.top'
   - '+.zeekrline.com'
   - '+.zhi10.com'
+  - '+.zhituwujie.com'
   - '+.zhixingyunke.com'
   - '+.zhongancloud.com'
   - '+.zjxhedu.com'
