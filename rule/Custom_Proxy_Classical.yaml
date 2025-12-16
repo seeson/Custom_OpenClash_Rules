@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Proxy.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Proxy.list
-# TOTAL: 35
+# TOTAL: 36
 
 payload:
   - DOMAIN-KEYWORD,miguvideo
@@ -17,6 +17,7 @@ payload:
   - DOMAIN-SUFFIX,dmhy.org
   - DOMAIN-SUFFIX,geojs.io
   - DOMAIN-SUFFIX,googleapis.cn
+  - DOMAIN-SUFFIX,gzankun.com
   - DOMAIN-SUFFIX,hoyolab.com
   - DOMAIN-SUFFIX,iill.top
   - DOMAIN-SUFFIX,ip.sb
