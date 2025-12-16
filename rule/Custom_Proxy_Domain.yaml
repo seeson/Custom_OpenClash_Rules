@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Proxy.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Proxy.list
-# TOTAL: 33
+# TOTAL: 34
 
 payload:
   - '*miguvideo*'
@@ -17,6 +17,7 @@ payload:
   - '+.dmhy.org'
   - '+.geojs.io'
   - '+.googleapis.cn'
+  - '+.gzankun.com'
   - '+.hoyolab.com'
   - '+.iill.top'
   - '+.ip.sb'
