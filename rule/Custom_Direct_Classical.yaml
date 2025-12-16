@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 377
+# TOTAL: 382
 
 payload:
   - DOMAIN,yinhai.aiinyue.com
@@ -15,6 +15,7 @@ payload:
   - DOMAIN-SUFFIX,204cloud.com
   - DOMAIN-SUFFIX,3d-apollo.com
   - DOMAIN-SUFFIX,3dwhere.com
+  - DOMAIN-SUFFIX,3gxk.net
   - DOMAIN-SUFFIX,4399zmxy.com
   - DOMAIN-SUFFIX,51wanxue.com
   - DOMAIN-SUFFIX,51zmt.top
@@ -287,6 +288,7 @@ payload:
   - DOMAIN-SUFFIX,rewards.bing.com
   - DOMAIN-SUFFIX,royqh.net
   - DOMAIN-SUFFIX,rsfcxq.com
+  - DOMAIN-SUFFIX,ruijie.com
   - DOMAIN-SUFFIX,saduck.top
   - DOMAIN-SUFFIX,sanligu.top
   - DOMAIN-SUFFIX,sapphiretech.com
@@ -341,6 +343,7 @@ payload:
   - DOMAIN-SUFFIX,wewillpro.com
   - DOMAIN-SUFFIX,wjx.top
   - DOMAIN-SUFFIX,wlcdn88.com
+  - DOMAIN-SUFFIX,wpurl.cc
   - DOMAIN-SUFFIX,wwwh.eu.org
   - DOMAIN-SUFFIX,x86pi.com
   - DOMAIN-SUFFIX,xbgjw.com
@@ -351,6 +354,7 @@ payload:
   - DOMAIN-SUFFIX,xiberia.net
   - DOMAIN-SUFFIX,xinghaiwaimai.com
   - DOMAIN-SUFFIX,xixih.cc
+  - DOMAIN-SUFFIX,xkkapk.com
   - DOMAIN-SUFFIX,xn--4kq62z5rby2qupq9ub.top
   - DOMAIN-SUFFIX,xopenbeta.com
   - DOMAIN-SUFFIX,xxir.com
@@ -369,6 +373,7 @@ payload:
   - DOMAIN-SUFFIX,zctnet.top
   - DOMAIN-SUFFIX,zeekrline.com
   - DOMAIN-SUFFIX,zhi10.com
+  - DOMAIN-SUFFIX,zhituwujie.com
   - DOMAIN-SUFFIX,zhixingyunke.com
   - DOMAIN-SUFFIX,zhongancloud.com
   - DOMAIN-SUFFIX,zjxhedu.com
