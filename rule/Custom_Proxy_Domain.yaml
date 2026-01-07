@@ -1,22 +1,36 @@
 # Generated from rule/Custom_Proxy.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Proxy.list
-# TOTAL: 16
+# TOTAL: 30
 
 payload:
+  - '*miguvideo*'
+  - '*rutracker*'
+  - '*torrentqq*'
   - '+.7pzzv.us'
+  - '+.acg.rip'
   - '+.arduino.cc'
+  - '+.badasstorrents.com'
+  - '+.centurygame.com'
   - '+.clientservices.googleapis.com'
   - '+.cloudsync-prod.s3.us-east-1.amazonaws.com'
+  - '+.dmhy.org'
   - '+.dmhy.org'
   - '+.googleapis.cn'
   - '+.hoyolab.com'
   - '+.hoyoverse.com'
+  - '+.iill.top'
   - '+.ip.sb'
   - '+.ipify.org'
+  - '+.kickasstorrents.to'
+  - '+.kickasstorrents.ws'
+  - '+.lemonhd.club'
   - '+.mtalk.google.com'
+  - '+.nyaa.si'
   - '+.onedrive.live.com'
   - '+.platformio.org'
+  - '+.qbittorrent.org'
   - '+.services.googleapis.cn'
+  - '+.shewang.net'
   - '+.stun.playstation.net'
   - '+.xn--ngstr-lra8j.com'
