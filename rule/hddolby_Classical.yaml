@@ -1,0 +1,9 @@
+# Generated from rule/hddolby.list
+# REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
+# SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/hddolby.list
+# TOTAL: 3
+
+payload:
+  - DOMAIN,www.hddolby.com
+  - IP-CIDR,104.21.59.6/32,no-resolve
+  - IP-CIDR,172.67.167.97/32,no-resolve

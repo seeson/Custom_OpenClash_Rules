@@ -1,0 +1,19 @@
+# Generated from rule/Custom_Unlock.list
+# REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
+# SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Unlock.list
+# TOTAL: 13
+
+payload:
+  - '+.a.nel.cloudflare.com'
+  - '+.blocky-app.com'
+  - '+.bonjour-e-shop.com'
+  - '+.challenges.cloudflare.com'
+  - '+.cloudflare-dns.com'
+  - '+.hextom.com'
+  - '+.mocogame.com'
+  - '+.nc.com'
+  - '+.ncupdate.com'
+  - '+.plaync.com'
+  - '+.playnccdn.com'
+  - '+.rateyourmusic.com'
+  - '+.tenor.com'

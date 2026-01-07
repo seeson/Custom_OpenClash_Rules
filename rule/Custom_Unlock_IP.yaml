@@ -1,0 +1,10 @@
+# Generated from rule/Custom_Unlock.list
+# REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
+# SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Unlock.list
+# TOTAL: 4
+
+payload:
+  - '205.164.56.0/24'
+  - '50.117.27.0/24'
+  - '63.251.124.0/24'
+  - '69.46.75.0/24'

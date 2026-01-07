@@ -1,0 +1,23 @@
+# Generated from rule/Custom_Unlock.list
+# REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
+# SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Unlock.list
+# TOTAL: 17
+
+payload:
+  - DOMAIN-SUFFIX,a.nel.cloudflare.com
+  - DOMAIN-SUFFIX,blocky-app.com
+  - DOMAIN-SUFFIX,bonjour-e-shop.com
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,cloudflare-dns.com
+  - DOMAIN-SUFFIX,hextom.com
+  - DOMAIN-SUFFIX,mocogame.com
+  - DOMAIN-SUFFIX,nc.com
+  - DOMAIN-SUFFIX,ncupdate.com
+  - DOMAIN-SUFFIX,plaync.com
+  - DOMAIN-SUFFIX,playnccdn.com
+  - DOMAIN-SUFFIX,rateyourmusic.com
+  - DOMAIN-SUFFIX,tenor.com
+  - IP-CIDR,205.164.56.0/24,no-resolve
+  - IP-CIDR,50.117.27.0/24,no-resolve
+  - IP-CIDR,63.251.124.0/24,no-resolve
+  - IP-CIDR,69.46.75.0/24,no-resolve
