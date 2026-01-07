@@ -1,23 +1,37 @@
 # Generated from rule/Custom_Proxy.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Proxy.list
-# TOTAL: 18
+# TOTAL: 32
 
 payload:
+  - DOMAIN-KEYWORD,miguvideo
+  - DOMAIN-KEYWORD,rutracker
+  - DOMAIN-KEYWORD,torrentqq
   - DOMAIN-SUFFIX,7pzzv.us
+  - DOMAIN-SUFFIX,acg.rip
   - DOMAIN-SUFFIX,arduino.cc
+  - DOMAIN-SUFFIX,badasstorrents.com
+  - DOMAIN-SUFFIX,centurygame.com
   - DOMAIN-SUFFIX,clientservices.googleapis.com
   - DOMAIN-SUFFIX,cloudsync-prod.s3.us-east-1.amazonaws.com
+  - DOMAIN-SUFFIX,dmhy.org
   - DOMAIN-SUFFIX,dmhy.org
   - DOMAIN-SUFFIX,googleapis.cn
   - DOMAIN-SUFFIX,hoyolab.com
   - DOMAIN-SUFFIX,hoyoverse.com
+  - DOMAIN-SUFFIX,iill.top
   - DOMAIN-SUFFIX,ip.sb
   - DOMAIN-SUFFIX,ipify.org
+  - DOMAIN-SUFFIX,kickasstorrents.to
+  - DOMAIN-SUFFIX,kickasstorrents.ws
+  - DOMAIN-SUFFIX,lemonhd.club
   - DOMAIN-SUFFIX,mtalk.google.com
+  - DOMAIN-SUFFIX,nyaa.si
   - DOMAIN-SUFFIX,onedrive.live.com
   - DOMAIN-SUFFIX,platformio.org
+  - DOMAIN-SUFFIX,qbittorrent.org
   - DOMAIN-SUFFIX,services.googleapis.cn
+  - DOMAIN-SUFFIX,shewang.net
   - DOMAIN-SUFFIX,stun.playstation.net
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   - IP-CIDR,1.0.0.1/32,no-resolve
