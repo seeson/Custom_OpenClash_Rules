@@ -4,7 +4,11 @@
 # 强制直连域名列表，来自个人收集
 # 此规则文件中的域名会定期 PR 至 Geosite 数据库，并删除已被 Geosite 收录的域名，因此请在支持 Geosite 的软件（如 OpenClash）中使用。
 
-
+#Yinhai
+DOMAIN,yinhai.aiinyue.com
+#Lucida
+DOMAIN-SUFFIX,lucida.su
+DOMAIN-SUFFIX,lucida.to
 # ImmortalWrt 相关
 DOMAIN-SUFFIX,immortalwrt.org
 DOMAIN-SUFFIX,kyarucloud.moe
@@ -135,7 +139,7 @@ DOMAIN-KEYWORD,m-team
 DOMAIN-SUFFIX,m-team.cc
 DOMAIN-SUFFIX,m-team.io
 DOMAIN-SUFFIX,manfuz.co
-
+DOMAIN-SUFFIX,cinefiles.info
 # 金融类
 # 汇丰香港，走代理会被风控 / add by Telegram user: victory / Date: 2025-09-20 08:35:06
 DOMAIN-SUFFIX,hsbc.com.hk
