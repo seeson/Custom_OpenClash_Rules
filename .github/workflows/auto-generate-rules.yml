@@ -144,6 +144,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          git fetch origin
+          git rebase origin/main || true
+          
           if [[ -n $(git log origin/main..HEAD) ]]; then
             git push origin HEAD:main
           else
