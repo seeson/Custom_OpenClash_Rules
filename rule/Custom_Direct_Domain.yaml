@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
-# REPO: https://github.com/seeson/Custom_OpenClash_Rules
+# REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 424
+# TOTAL: 431
 
 payload:
   - '*m-team*'
@@ -100,6 +100,7 @@ payload:
   - '+.dhub.kubesre.xyz'
   - '+.dingdingzn.com'
   - '+.diyiedu.com'
+  - '+.dnshe.com'
   - '+.docker.1panel.live'
   - '+.docker.kejilion.pro'
   - '+.docker.unsee.tech'
@@ -243,6 +244,7 @@ payload:
   - '+.laogongju.com'
   - '+.leelen.com'
   - '+.letaoedu.com'
+  - '+.lg3000.top'
   - '+.liunn.com'
   - '+.liveperson.net'
   - '+.longmenshuju.com'
@@ -308,6 +310,7 @@ payload:
   - '+.qiaoxuesi.com'
   - '+.qinglue.com'
   - '+.qmeng.top'
+  - '+.rayws.top'
   - '+.redenmc.com'
   - '+.registry.dockermirror.com'
   - '+.rewards.bing.com'
@@ -385,21 +388,25 @@ payload:
   - '+.wpurl.cc'
   - '+.wwwh.eu.org'
   - '+.x86pi.com'
+  - '+.xbcloudprint.com'
   - '+.xbgjw.com'
   - '+.xdqtech.com'
   - '+.xdtool.com'
   - '+.xiankabao.com'
+  - '+.xiaobeiyangji.com'
   - '+.xiaochuanyun.com'
   - '+.xiaoxia.vip'
   - '+.xiberia.net'
   - '+.ximogo.com'
   - '+.xinghaiwaimai.com'
+  - '+.xingyaozhilian.com'
   - '+.xiwang.com'
   - '+.xixih.cc'
   - '+.xkkapk.com'
   - '+.xn--4kq62z5rby2qupq9ub.top'
   - '+.xn--cesw6hd3s99f.com'
   - '+.xopenbeta.com'
+  - '+.xuanyuancode.com'
   - '+.xxir.com'
   - '+.xxrsm.com'
   - '+.xzsckj.com'
