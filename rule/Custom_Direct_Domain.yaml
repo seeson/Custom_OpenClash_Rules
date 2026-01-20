@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 432
+# TOTAL: 443
 
 payload:
   - '*m-team*'
@@ -49,6 +49,7 @@ payload:
   - '+.anycubic.com'
   - '+.anyrouter.top'
   - '+.api.myip.com'
+  - '+.apm-log-upload-os.hoyoverse.com'
   - '+.aqtwwx.net'
   - '+.armvm.com'
   - '+.atticus.vip'
@@ -65,6 +66,7 @@ payload:
   - '+.bsbsb.top'
   - '+.bunny.net'
   - '+.canghaiip.com'
+  - '+.cc.cd'
   - '+.cdn.ist'
   - '+.centbrowser.net'
   - '+.cg3da.com'
@@ -90,6 +92,7 @@ payload:
   - '+.congmiqq.com'
   - '+.coros.com'
   - '+.crtyhr.com'
+  - '+.cyouzai.com'
   - '+.d4ctech.com'
   - '+.day.app'
   - '+.dcgstd.com'
@@ -259,9 +262,11 @@ payload:
   - '+.mc-user.com'
   - '+.meishiffx.online'
   - '+.members.3322.org'
+  - '+.meoof-pet.com'
   - '+.micu.hk'
   - '+.mifeng.plus'
   - '+.mifon.com'
+  - '+.minor-api-os.hoyoverse.com'
   - '+.mixly.org'
   - '+.mobai.sbs'
   - '+.modelscope.net'
@@ -284,6 +289,7 @@ payload:
   - '+.onebuygz.com'
   - '+.opentrust.net'
   - '+.ottai.com'
+  - '+.ottiptv.cc'
   - '+.ourschool.cc'
   - '+.p01.epsonconnect.com'
   - '+.paperang.com'
@@ -324,6 +330,7 @@ payload:
   - '+.scnyw.com'
   - '+.scratch5.com'
   - '+.sct.ftqq.com'
+  - '+.sdk-log-upload-os.hoyoverse.com'
   - '+.seaflysoft.com'
   - '+.seedpace.com'
   - '+.sgtv.ii00.cc'
@@ -346,6 +353,7 @@ payload:
   - '+.svyun.com'
   - '+.sxlljm.com'
   - '+.tailgdd.com'
+  - '+.tailscale.com'
   - '+.tangguobaohe.com'
   - '+.tclai.top'
   - '+.tcp.pub'
@@ -370,6 +378,7 @@ payload:
   - '+.uascent-iot.com'
   - '+.ugdocker.link'
   - '+.ulife.group'
+  - '+.us.ci'
   - '+.vbkhk.com'
   - '+.vbkr.com'
   - '+.vbkrhk.com'
@@ -388,6 +397,7 @@ payload:
   - '+.wlcdn88.com'
   - '+.wpurl.cc'
   - '+.wwwh.eu.org'
+  - '+.wxdw.top'
   - '+.x86pi.com'
   - '+.xbcloudprint.com'
   - '+.xbgjw.com'
@@ -435,4 +445,5 @@ payload:
   - '+.zsytit.com'
   - '+.ztytech.com'
   - '+.zuobiao.press'
+  - '+.zzz-log-upload-os.hoyoverse.com'
   - 'yinhai.aiinyue.com'
