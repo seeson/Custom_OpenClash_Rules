@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 447
+# TOTAL: 448
 
 payload:
   - DOMAIN,yinhai.aiinyue.com
@@ -191,6 +191,7 @@ payload:
   - DOMAIN-SUFFIX,hdbz.net
   - DOMAIN-SUFFIX,hexiny.com
   - DOMAIN-SUFFIX,hf-mirror.com
+  - DOMAIN-SUFFIX,hg-cdn.com
   - DOMAIN-SUFFIX,hhtvc.com
   - DOMAIN-SUFFIX,hijin.vip
   - DOMAIN-SUFFIX,hnxzctec.com
