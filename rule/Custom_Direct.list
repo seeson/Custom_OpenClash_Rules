@@ -157,6 +157,8 @@ DOMAIN-SUFFIX,m-team.cc
 DOMAIN-SUFFIX,m-team.io
 DOMAIN-SUFFIX,manfuz.co
 DOMAIN-SUFFIX,cinefiles.info
+# 猫站
+DOMAIN-SUFFIX,pterclub.net
 # 金融类
 # 汇丰香港，走代理会被风控 / add by Telegram user: victory / Date: 2025-09-20 08:35:06
 DOMAIN-SUFFIX,hsbc.com.hk
