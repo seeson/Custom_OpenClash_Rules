@@ -1,0 +1,11 @@
+# NAME: Custom_Proxy
+# AUTHOR: SeesoN
+# REPO: https://github.com/seeson/Custom_OpenClash_Rules
+
+DOMAIN-SUFFIX,mocogame.com
+DOMAIN-SUFFIX,nc.com
+DOMAIN-SUFFIX,ncupdate.com
+DOMAIN-SUFFIX,plaync.com
+DOMAIN-SUFFIX,playnccdn.com
+DOMAIN-SUFFIX,gryphline.com
+DOMAIN-SUFFIX,anticheatexpert.com
