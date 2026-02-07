@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 501
+# TOTAL: 506
 
 payload:
   - '*m-team*'
@@ -159,6 +159,7 @@ payload:
   - '+.fzwqq.com'
   - '+.gaishitongshu.com'
   - '+.game.maj-soul.com'
+  - '+.gamepp.com'
   - '+.gangtise.com'
   - '+.gaojiua.com'
   - '+.gaze.run'
@@ -176,6 +177,7 @@ payload:
   - '+.ghproxy.cc'
   - '+.ghproxy.cfd'
   - '+.ghps.cc'
+  - '+.giomeru.com'
   - '+.girigirilove.com'
   - '+.git.886.be'
   - '+.github.abskoop.workers.dev'
@@ -276,6 +278,7 @@ payload:
   - '+.kyarucloud.moe'
   - '+.lanyun.net'
   - '+.laogongju.com'
+  - '+.latexlive.com'
   - '+.leelen.com'
   - '+.letaoedu.com'
   - '+.lg3000.top'
@@ -358,6 +361,7 @@ payload:
   - '+.qianuni.com'
   - '+.qianxuecloud.com'
   - '+.qianxueyunke.com'
+  - '+.qiaoqiaoyun.com'
   - '+.qiaoxuesi.com'
   - '+.qinglue.com'
   - '+.qmeng.top'
@@ -461,6 +465,7 @@ payload:
   - '+.xiaoxia.vip'
   - '+.xiberia.net'
   - '+.ximogo.com'
+  - '+.xingaochengtai.com'
   - '+.xinghaiwaimai.com'
   - '+.xingyaozhilian.com'
   - '+.xiqueer.com'
