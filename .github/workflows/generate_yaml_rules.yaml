@@ -50,6 +50,12 @@ jobs:
               content="$2"
               total=$(echo "$content" | grep -c '  - ' || true)
 
+              # 如果没有规则，跳过生成
+              if [[ "$total" -eq 0 ]]; then
+                echo "Skip $file (empty payload)"
+                return
+              fi
+
               echo "# Generated from ${list_file}" > "$file"
               echo "# REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules" >> "$file"
               echo "# SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/${list_file}" >> "$file"
