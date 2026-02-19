@@ -10,12 +10,6 @@
  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/t/Aethersailor/Custom_OpenClash_Rules?style=flat">
  <img alt="OpenClash" src="https://img.shields.io/badge/OpenClash-integrated-brightgreen?style=flat">
  <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fapi.asailor.org%2Fversion&up_message=online&down_message=offline&style=flat&label=backend">
- <a href="https://t.me/custom_openclash_rules">
- <img src="http://img.shields.io/badge/dynamic/json?style=flat&label=channel&logo=telegram&query=$.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtelegram%26queryKey%3Dcustom_openclash_rules" alt="Telegram">
- </a>
- <a href="https://t.me/custom_openclash_rules_group">
- <img src="https://img.shields.io/badge/dynamic/json?style=flat&label=group&logo=telegram&query=$.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtelegram%26queryKey%3Dcustom_openclash_rules_group" alt="Telegram">
- </a>
 </p>
 <p align="center"><b>✨ 让你更优雅地使用 OpenClash ✨</b></p>
 
@@ -61,17 +55,11 @@
 
 ---
 
-> [!IMPORTANT]
-> - **Telegram Channel**: [Custom_OpenClash_Rules | 通知频道](https://t.me/custom_openclash_rules)
-> - **Telegram Group**: [Custom_OpenClash_Rules | 交流群](https://t.me/custom_openclash_rules_group)
-
----
-
 > [!NOTE]
 > **声明事项：**
 >
 > - 本项目编写于 2024 年 4 月，为非盈利性质的技术研究与经验整理项目。
-> - **本项目内容仅为维护者个人经验的总结性示例，用于技术参考，不具权威性，亦不构成 OpenClash 的唯一或推荐使用方式。**
+> - **本项目内容仅为维护者个人经验的总结，用于技术交流，不具权威性，亦不构成 OpenClash 的唯一或推荐使用方式。**
 > - **本项目未运营任何 YouTube 频道，亦未在 YouTube 或其他视频平台发布任何形式的教学或指导视频。**
 > - **本项目内容未基于其他第三方教程或视频进行整理或改编。如因使用其他来源的教程、模板或配置文件产生问题，请勿在本项目的 Issues/Discussions 中反馈。**
 > - **本项目部分内容在表述上可能相对易于理解，但不构成对任何特定用户群体的教学、指导或支持承诺，维护者亦不承担相应帮助义务。**
@@ -83,14 +71,15 @@
 > [!WARNING]
 > **使用须知：**
 >
-> 1. 本项目仅用于 OpenWrt 系统及其插件 OpenClash 的技术学习与研究，相关内容属于中立性的技术实现示例与实验性资料，不涉及任何具体使用场景或用途导向。项目维护者不对项目内容的合法性、合规性、完整性、准确性或适用性作出任何保证。
-> 2. 使用者在访问、使用、复制或传播本项目内容前，应自行确认其所在地及相关司法辖区的法律法规允许。
+> 1. 本项目仅用于 OpenWrt 系统及其插件 OpenClash 的技术学习与研究，相关内容属于中立性的技术实现示例与实验性资料，不涉及任何具体使用场景或用途导向。
+> 2. 使用者在访问、使用、复制本项目内容前，应自行确认其所在地及相关司法辖区的法律法规允许，且在学习和研究后于 24 小时内删除相关内容。
 > 3. 本项目内容不得用于任何违反适用法律法规的用途。使用者在使用本项目内容时，应自行遵守其所在地及相关司法辖区的法律法规，包括中华人民共和国的相关法律法规，不得在中华人民共和国境内利用本项目内容从事获取、传播依法被限制或阻断的境外违法信息等行为。
-> 4. 本项目不提供、亦不涉及任何规避监管制度的设备、软件、工具、线路或服务。项目维护者不制作、不销售、不提供相关设备、软件、工具或技术服务，亦不为任何个人或组织获取、传播依法被限制或阻断的信息提供技术支持、协助或其他形式的帮助。
+> 4. 本项目不提供、亦不涉及设备、软件、工具、线路或服务。项目维护者不制作、不销售、不提供相关设备、软件、工具或技术服务，亦不为任何个人或组织获取、传播依法被限制或阻断的信息、规避监管制度提供技术支持、协助或其他形式的帮助。
 > 5. 任何个人或组织因直接或间接使用本项目内容所实施的行为，均由其自行负责并承担相应法律责任。项目维护者不参与使用者的具体行为，对使用者的用途、方式及其产生的后果不承担任何责任，亦不承担任何形式的连带责任。
 > 6. 基于本项目内容所进行的修改、二次开发、整合、分发或其他衍生行为，均属于相关个人或组织的独立行为，与本项目及其维护者无关，由此产生的任何法律责任由行为主体自行承担。
-> 7. 本项目以 CC-BY-SA-4.0 许可协议发布（见下方许可章节）。任何转载、再发布或二次传播均应遵守许可条款（署名、相同方式共享等），不得暗示本项目或维护者对转载内容背书。因转载、传播或使用本项目内容所产生的法律风险，由行为主体自行承担，与本项目及其维护者无关。
-> 8. 本项目维护者保留在任何时间对本免责声明进行修订或补充的权利。任何使用、复制或访问本项目内容的个人或组织，均视为已知悉并接受本免责声明。
+> 7. 本项目以 CC-BY-SA-4.0 许可协议发布（见下方许可章节），但不鼓励任何形式的转载、再发布或二次传播，且严禁转载、再发布或二次传播本项目内容至中国大陆境内任何平台之上。
+> 8. 任何转载、再发布或二次传播均均不得暗示本项目或维护者对转载内容背书。因转载、传播或使用本项目内容所产生的法律风险，由行为主体自行承担，与本项目及其维护者无关。
+> 9. 本项目维护者保留在任何时间对本免责声明进行修订或补充的权利。任何使用、复制或访问本项目内容的个人或组织，均视为已知悉并接受本免责声明。
 
 ---
 
@@ -101,7 +90,7 @@
 **按照本项目 [Wiki](https://github.com/Aethersailor/Custom_OpenClash_Rules/wiki) 中的设置方案，配合本项目的订阅转换模板对 OpenClash 进行配置，即可实现以下特性，更优雅地使用你的 OpenClash：**
 
 - 🚀 **优化的 DNS 设置，尽量降低对直连访问的影响**
-  > 本地站点采用运营商 DNS 解析，域名和 IP 不经 OpenClash 内核处理并返回真实 IP，让 OpenClash 对直连访问的影响降低到更小。
+  > 本地站点采用运营商 DNS 解析，示例地区(CN)域名和 IP 不经 OpenClash 内核处理并返回真实 IP，让 OpenClash 对直连访问的影响降低到更小。
 
 - 🛡️ **降低解析异常与泄漏风险，无需搭配其他插件**
   > 非直连站点可根据规则由出站侧完成 DNS 解析与访问，并配合策略降低泄漏风险。
@@ -115,23 +104,20 @@
 - 🗂️ **丰富的分流策略组**
   > 多款规则模板，包含常见应用/服务（如影音、AI 工具、电商、游戏平台等）的分流策略组，同时也提供简化版本的规则。
 
-- ⚡ **出站分组与测速优选**
+- ⚡ **分流与测速优选**
   > 自动优选低延迟出站项，减少手动切换成本。
 
 - 🎮 **Steam 访问优化**
-  > 单独列出 Steam 规则并强制 Steam 下载 CDN 走直连，确保大流量下载不误走出站出口，其余相关访问可按需分流。
+  > Steam 下载流量与非下载流量分流，允许在 Steam 代理登录的情况下，下载流量仍然直连。
 
 - 🔄 **自动更新，长期无人值守**
   > 设置完成后即可长期无人值守，每日定时自动更新上游规则 GEO 数据库和直连白名单等具有时效性要求的数据，无需自己动手。
 
 - 🌍 **大流量下载优化**
-  > 尽力避免大流量下载走出站出口，提供下载类流量优化选项，减少不必要的出站流量消耗。
+  > 提供非标端口分流控制，尽力避免大流量下载走非直连出口，提供下载类流量优化选项，减少不必要的出站流量消耗。
 
 - ~~🚫 **广告屏蔽功能和 hosts 加速**~~ *(暂时停用)*
   > ~~依靠 OpenClash 配合系统自带 Dnsmasq 实现广告过滤和 hosts 加速功能，并实现每日自动更新，支持添加多个规则。（可选）~~
-
-- 🌐 **更多的出站分组示例**
-  > 提供更细粒度的出站分组示例，方便按用途/链路类型进行管理。
 
 - 🧩 **直连冷门域名处理机制**
   > 增加了一些小众网站的直连规则；维护者会根据反馈定期将收集到的域名向上游规则提交。
