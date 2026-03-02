@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/seeson/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 522
+# TOTAL: 523
 
 payload:
   - '*m-team*'
@@ -10,6 +10,7 @@ payload:
   - '+.0044696.com'
   - '+.03241119.xyz'
   - '+.112114.xyz'
+  - '+.1145145.com'
   - '+.115cdn.de'
   - '+.1996999.xyz'
   - '+.204cloud.com'
