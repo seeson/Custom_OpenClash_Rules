@@ -149,6 +149,8 @@ DOMAIN-SUFFIX,zzz-log-upload-os.hoyoverse.com
 DOMAIN-SUFFIX,minor-api-os.hoyoverse.com
 # 明日方舟
 DOMAIN-SUFFIX,hg-cdn.com
+# 微软模拟飞行2024
+DOMAIN-SUFFIX,sunrisecontent.akamaized.net
 
 # 软件类规则
 # 软件及服务 / add by Telegram user: rl / Date: 2025-08-14 09:47:11
@@ -282,6 +284,20 @@ DOMAIN-SUFFIX,axuex.top
 # 以下是准备向 GeoSite 上游仓库提交 PR 的国内冷门域名，收录后会注释对应内容
 # ---------------------------------------
 # 以下域名待提交 PR
+# 特力科技 / add by Telegram user: Evan / Date: 2026-02-28 10:00:18
+DOMAIN-SUFFIX,z-tek.com
+# 小说网站 / add by Telegram user: 晨曦 / Date: 2026-02-27 22:26:08
+DOMAIN-SUFFIX,77shuku.org
+# 开鸿 / add by Telegram user: y / Date: 2026-02-26 21:22:50
+DOMAIN-SUFFIX,kaihong.com
+# 视频上传 / add by Telegram user: 美 / Date: 2026-02-24 18:53:14
+DOMAIN-SUFFIX,17van.com
+# 有知有行 / add by Telegram user: Mairs / Date: 2026-02-22 15:52:24
+DOMAIN-SUFFIX,youzhiyouxing.com
+# 浏阳天空剧院小程序 / add by Telegram user: o.O? / Date: 2026-02-21 22:26:40
+DOMAIN-SUFFIX,et0731.com
+# 烟花云小程序 / add by Telegram user: o.O? / Date: 2026-02-21 22:25:27
+DOMAIN-SUFFIX,gvgoo.com
 # 晋江中医院 / add by Telegram user: 嘿嘿 / Date: 2026-02-19 12:42:55
 DOMAIN-SUFFIX,jjzyy.org
 # 学校官网 / add by Telegram user: More / Date: 2026-02-14 23:15:33
