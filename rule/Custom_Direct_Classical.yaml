@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
-# REPO: https://github.com/seeson/Custom_OpenClash_Rules
+# REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 530
+# TOTAL: 537
 
 payload:
   - DOMAIN,yinhai.aiinyue.com
@@ -13,6 +13,7 @@ payload:
   - DOMAIN-SUFFIX,112114.xyz
   - DOMAIN-SUFFIX,1145145.com
   - DOMAIN-SUFFIX,115cdn.de
+  - DOMAIN-SUFFIX,17van.com
   - DOMAIN-SUFFIX,1996999.xyz
   - DOMAIN-SUFFIX,204cloud.com
   - DOMAIN-SUFFIX,365ting.com
@@ -30,6 +31,7 @@ payload:
   - DOMAIN-SUFFIX,657192.com
   - DOMAIN-SUFFIX,6v520.net
   - DOMAIN-SUFFIX,737698.xyz
+  - DOMAIN-SUFFIX,77shuku.org
   - DOMAIN-SUFFIX,7sef.com
   - DOMAIN-SUFFIX,86656.net
   - DOMAIN-SUFFIX,8kc.top
@@ -144,6 +146,7 @@ payload:
   - DOMAIN-SUFFIX,epark.cc
   - DOMAIN-SUFFIX,epg.aptv.app
   - DOMAIN-SUFFIX,epg.v1.mk
+  - DOMAIN-SUFFIX,et0731.com
   - DOMAIN-SUFFIX,everdrawing.com
   - DOMAIN-SUFFIX,fdfinvoice.com
   - DOMAIN-SUFFIX,feihengip.com
@@ -208,6 +211,7 @@ payload:
   - DOMAIN-SUFFIX,gsnhcg.com
   - DOMAIN-SUFFIX,gsstic.com
   - DOMAIN-SUFFIX,guaitao.cc
+  - DOMAIN-SUFFIX,gvgoo.com
   - DOMAIN-SUFFIX,gwmapp-w.com
   - DOMAIN-SUFFIX,gxnnjidingkeji.top
   - DOMAIN-SUFFIX,gzybao.com
@@ -274,6 +278,7 @@ payload:
   - DOMAIN-SUFFIX,jxjktzjt.com
   - DOMAIN-SUFFIX,jxpp.com
   - DOMAIN-SUFFIX,jzagile.com
+  - DOMAIN-SUFFIX,kaihong.com
   - DOMAIN-SUFFIX,kaijiejinrong.com
   - DOMAIN-SUFFIX,kancaibao.com
   - DOMAIN-SUFFIX,kaspersky-labs.com
@@ -416,6 +421,7 @@ payload:
   - DOMAIN-SUFFIX,ssjj2.com
   - DOMAIN-SUFFIX,starlink.uno
   - DOMAIN-SUFFIX,stkfanli.com
+  - DOMAIN-SUFFIX,sunrisecontent.akamaized.net
   - DOMAIN-SUFFIX,suyur.com
   - DOMAIN-SUFFIX,svyun.com
   - DOMAIN-SUFFIX,sxlljm.com
@@ -506,9 +512,11 @@ payload:
   - DOMAIN-SUFFIX,yixc.com
   - DOMAIN-SUFFIX,yongyu.xyz
   - DOMAIN-SUFFIX,yooc.me
+  - DOMAIN-SUFFIX,youzhiyouxing.com
   - DOMAIN-SUFFIX,yunzuoye.net
   - DOMAIN-SUFFIX,yyshub.top
   - DOMAIN-SUFFIX,yzcsoft.com
+  - DOMAIN-SUFFIX,z-tek.com
   - DOMAIN-SUFFIX,z6e.com
   - DOMAIN-SUFFIX,zcloud.world
   - DOMAIN-SUFFIX,zctnet.top
@@ -527,7 +535,6 @@ payload:
   - DOMAIN-SUFFIX,ztytech.com
   - DOMAIN-SUFFIX,zuobiao.press
   - DOMAIN-SUFFIX,zzz-log-upload-os.hoyoverse.com
-  - SRC-PORT,41641
   - IP-CIDR,108.174.48.100/32,no-resolve
   - IP-CIDR,198.41.192.0/24,no-resolve
   - IP-CIDR,198.41.200.0/24,no-resolve
