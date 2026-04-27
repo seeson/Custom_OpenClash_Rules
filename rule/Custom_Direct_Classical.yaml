@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/seeson/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 597
+# TOTAL: 607
 
 payload:
   - DOMAIN,yinhai.aiinyue.com
@@ -25,6 +25,7 @@ payload:
   - DOMAIN-SUFFIX,3gxk.net
   - DOMAIN-SUFFIX,419g.com
   - DOMAIN-SUFFIX,4399zmxy.com
+  - DOMAIN-SUFFIX,4kgj.com
   - DOMAIN-SUFFIX,4xiaoshuo.org
   - DOMAIN-SUFFIX,51tbox.com
   - DOMAIN-SUFFIX,51wanxue.com
@@ -34,6 +35,7 @@ payload:
   - DOMAIN-SUFFIX,52met.com
   - DOMAIN-SUFFIX,52muban.com
   - DOMAIN-SUFFIX,55555.ink
+  - DOMAIN-SUFFIX,580ai.net
   - DOMAIN-SUFFIX,657192.com
   - DOMAIN-SUFFIX,66990000.xyz
   - DOMAIN-SUFFIX,6v520.net
@@ -50,6 +52,7 @@ payload:
   - DOMAIN-SUFFIX,998tool.com
   - DOMAIN-SUFFIX,a0d.top
   - DOMAIN-SUFFIX,aaawz.cc
+  - DOMAIN-SUFFIX,acepanel.net
   - DOMAIN-SUFFIX,acggit.com
   - DOMAIN-SUFFIX,adobe.com
   - DOMAIN-SUFFIX,afeica.com
@@ -104,6 +107,7 @@ payload:
   - DOMAIN-SUFFIX,canghaiip.com
   - DOMAIN-SUFFIX,cangjie-lang.net
   - DOMAIN-SUFFIX,cc.cd
+  - DOMAIN-SUFFIX,ccw.site
   - DOMAIN-SUFFIX,cdn.ist
   - DOMAIN-SUFFIX,centbrowser.net
   - DOMAIN-SUFFIX,cftunnel.com
@@ -239,6 +243,7 @@ payload:
   - DOMAIN-SUFFIX,gsnhcg.com
   - DOMAIN-SUFFIX,gsstic.com
   - DOMAIN-SUFFIX,guaitao.cc
+  - DOMAIN-SUFFIX,guangyapan.com
   - DOMAIN-SUFFIX,gvgoo.com
   - DOMAIN-SUFFIX,gwmapp-w.com
   - DOMAIN-SUFFIX,gxnnjidingkeji.top
@@ -363,6 +368,7 @@ payload:
   - DOMAIN-SUFFIX,mifeng.plus
   - DOMAIN-SUFFIX,mifon.com
   - DOMAIN-SUFFIX,minor-api-os.hoyoverse.com
+  - DOMAIN-SUFFIX,miraiemby.com
   - DOMAIN-SUFFIX,mixly.org
   - DOMAIN-SUFFIX,mobai.sbs
   - DOMAIN-SUFFIX,modelscope.net
@@ -387,6 +393,7 @@ payload:
   - DOMAIN-SUFFIX,oceando.cloud
   - DOMAIN-SUFFIX,ok321.top
   - DOMAIN-SUFFIX,onebuygz.com
+  - DOMAIN-SUFFIX,onetoken.sh
   - DOMAIN-SUFFIX,onetools.top
   - DOMAIN-SUFFIX,openkylin.top
   - DOMAIN-SUFFIX,opentrust.net
@@ -470,8 +477,10 @@ payload:
   - DOMAIN-SUFFIX,suyur.com
   - DOMAIN-SUFFIX,svyun.com
   - DOMAIN-SUFFIX,sxlljm.com
+  - DOMAIN-SUFFIX,sy1.top
   - DOMAIN-SUFFIX,tailgdd.com
   - DOMAIN-SUFFIX,tailscale.com
+  - DOMAIN-SUFFIX,tajiduo.com
   - DOMAIN-SUFFIX,talk-cloud.net
   - DOMAIN-SUFFIX,tangguobaohe.com
   - DOMAIN-SUFFIX,tclai.top
@@ -595,6 +604,7 @@ payload:
   - DOMAIN-SUFFIX,zuobiao.press
   - DOMAIN-SUFFIX,zysou.com
   - DOMAIN-SUFFIX,zzz-log-upload-os.hoyoverse.com
+  - SRC-PORT,41641
   - IP-CIDR,108.174.48.100/32,no-resolve
   - IP-CIDR,198.41.192.0/24,no-resolve
   - IP-CIDR,198.41.200.0/24,no-resolve
