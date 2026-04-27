@@ -345,6 +345,39 @@ DOMAIN-SUFFIX,jsj.top
 # 以下是准备向 GeoSite 上游仓库提交 PR 的国内冷门域名，收录后会注释对应内容
 # ---------------------------------------
 # 以下域名待提交 PR
+# polo api的充值域名 / add by Telegram user: 美 / Date: 2026-04-26 22:28:41
+DOMAIN-SUFFIX,580ai.net
+# onetoken api地址 / add by Telegram user: 美 / Date: 2026-04-25 23:51:24
+DOMAIN-SUFFIX,onetoken.sh
+# 共创世界 / add by Telegram user: 嘿嘿 / Date: 2026-04-25 14:07:04
+DOMAIN-SUFFIX,ccw.site
+# SyServer / add by Telegram user: 嘿嘿 / Date: 2026-04-21 20:36:46
+DOMAIN-SUFFIX,sy1.top
+# add by Telegram user: kaixin_321 / Date: 2026-04-20 22:35:43
+DOMAIN-SUFFIX,4kgj.com
+
+
+
+# 2026.4.20 分类整理完毕
+
+
+
+# ---------------------------------------
+# 以下域名已提交 PR
+
+# PR 至 felixonmars/dnsmasq-china-list
+
+
+# PR 至 v2fly/domain-list-community.
+
+# 塔吉多 / add by Telegram user: 雪菜 / Date: 2026-04-20 00:23:55
+DOMAIN-SUFFIX,tajiduo.com
+# 光鸭网盘 / add by Telegram user: XI / Date: 2026-04-19 01:55:14
+DOMAIN-SUFFIX,guangyapan.com
+# add by Telegram user: Aethersailor / Date: 2026-04-17 11:53:23
+DOMAIN-SUFFIX,acepanel.net
+# emby服务器 / add by Telegram user: 𝓚𝓮𝓵𝓿𝓲𝓷𝓟 / Date: 2026-04-17 10:47:10
+DOMAIN-SUFFIX,miraiemby.com
 # add by Telegram user: Coco / Date: 2026-04-15 02:22:09
 DOMAIN-SUFFIX,zhiexa.com
 # add by Telegram user: along / Date: 2026-04-14 13:08:15
@@ -359,14 +392,11 @@ DOMAIN-SUFFIX,cone-x.com
 DOMAIN-SUFFIX,jiangningwater.com
 
 
-# 2026.4.12 分类整理完毕
-
-
-
 # ---------------------------------------
-# 以下域名已提交 PR
+# =======================================
 
-# PR 至 felixonmars/dnsmasq-china-list
+# 以下域名已被 GeoSite 上游项目收录，定期删除
+
 # add by Telegram user: Aethersailor / Date: 2026-04-12 15:43:11
 DOMAIN-SUFFIX,tongkask.com
 # add by Telegram user: Aethersailor / Date: 2026-04-12 15:40:00
@@ -613,17 +643,6 @@ DOMAIN-SUFFIX,tnas.link
 DOMAIN-SUFFIX,terra-master.com
 # 铁威马NAS远程访问服务 / add by Telegram user: 嘿嘿 / Date: 2026-01-11 20:36:32
 DOMAIN-SUFFIX,tnas.online
-
-# PR 至 v2fly/domain-list-community.
-
-
-
-
-# ---------------------------------------
-# =======================================
-
-# 以下域名已被 GeoSite 上游项目收录，定期删除
-
 # 我的世界服务器 / add by Telegram user: 💡💡 / Date: 2025-09-12 12:44:33
 DOMAIN-SUFFIX,zctnet.top
 # 金融数据 / add by Telegram user: ai / Date: 2025-11-26 14:33:09
