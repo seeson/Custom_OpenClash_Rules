@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/seeson/Custom_OpenClash_Rules
 # SOURCE: https://github.com/seeson/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 636
+# TOTAL: 635
 
 payload:
   - DOMAIN,yinhai.aiinyue.com
@@ -124,7 +124,6 @@ payload:
   - DOMAIN-SUFFIX,chushi.cool
   - DOMAIN-SUFFIX,cinefiles.info
   - DOMAIN-SUFFIX,clivia.fun
-  - DOMAIN-SUFFIX,cloudfront.net
   - DOMAIN-SUFFIX,cmbc.run
   - DOMAIN-SUFFIX,cmhk.com
   - DOMAIN-SUFFIX,cn-music.mefun.vip
