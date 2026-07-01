@@ -5,7 +5,7 @@
 # 此规则文件中的域名会定期 PR 至 Geosite 数据库，并删除已被 Geosite 收录的域名，因此请在支持 Geosite 的软件（如 OpenClash）中使用。
 
 # Cloudfront
-DOMAIN-SUFFIX,cloudfront.net
+# DOMAIN-SUFFIX,cloudfront.net
 #直播
 DOMAIN-SUFFIX,sportsteam368.com
 DOMAIN-SUFFIX,1145145.com
