@@ -1,6 +1,6 @@
 # NAME: Custom_Direct
-# AUTHOR: Aethersailor
-# REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
+# AUTHOR: SeesoN
+# REPO: https://github.com/seeson/Custom_OpenClash_Rules
 # 强制直连域名列表，来自个人收集
 # 此规则文件中的域名会定期 PR 至 Geosite 数据库，并删除已被 Geosite 收录的域名，因此请在支持 Geosite 的软件（如 OpenClash）中使用。
 
@@ -185,6 +185,8 @@ DOMAIN-SUFFIX,apm-log-upload-os.hoyoverse.com
 DOMAIN-SUFFIX,sdk-log-upload-os.hoyoverse.com
 DOMAIN-SUFFIX,zzz-log-upload-os.hoyoverse.com
 DOMAIN-SUFFIX,minor-api-os.hoyoverse.com
+# 明日方舟
+DOMAIN-SUFFIX,hg-cdn.com
 
 # 微软模拟飞行2024
 DOMAIN-SUFFIX,sunrisecontent.akamaized.net
@@ -208,6 +210,15 @@ DOMAIN-SUFFIX,manfuz.co
 
 # pt站劳教所 / add by Telegram user: kevin / Date: 2025-09-22 14:35:53
 DOMAIN-SUFFIX,ptlgs.org
+
+# 观众
+DOMAIN-SUFFIX,cinefiles.info
+# 海豚
+DOMAIN-SUFFIX,52dic.vip
+# 猫站
+DOMAIN-SUFFIX,pterclub.net
+# 憨憨
+DOMAIN-SUFFIX,hhanclub.net
 
 # 手机淘宝临时修复
 IP-CIDR,47.246.99.0/24,no-resolve

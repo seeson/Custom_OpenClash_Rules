@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 843
+# TOTAL: 848
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -37,6 +37,7 @@ payload:
   - DOMAIN-SUFFIX,51tbox.com
   - DOMAIN-SUFFIX,51wanxue.com
   - DOMAIN-SUFFIX,51zmt.top
+  - DOMAIN-SUFFIX,52dic.vip
   - DOMAIN-SUFFIX,52jiawei.com
   - DOMAIN-SUFFIX,52met.com
   - DOMAIN-SUFFIX,52muban.com
@@ -170,6 +171,7 @@ payload:
   - DOMAIN-SUFFIX,chujingapp.com
   - DOMAIN-SUFFIX,chushi.cool
   - DOMAIN-SUFFIX,ciallo.party
+  - DOMAIN-SUFFIX,cinefiles.info
   - DOMAIN-SUFFIX,clivia.fun
   - DOMAIN-SUFFIX,cmbc.run
   - DOMAIN-SUFFIX,cmhk.com
@@ -347,6 +349,8 @@ payload:
   - DOMAIN-SUFFIX,hezuvip.com
   - DOMAIN-SUFFIX,hf-mirror.com
   - DOMAIN-SUFFIX,hfhs8x.info
+  - DOMAIN-SUFFIX,hg-cdn.com
+  - DOMAIN-SUFFIX,hhanclub.net
   - DOMAIN-SUFFIX,hhtvc.com
   - DOMAIN-SUFFIX,higgsweb.com
   - DOMAIN-SUFFIX,hijin.vip
@@ -577,6 +581,7 @@ payload:
   - DOMAIN-SUFFIX,ppt28.com
   - DOMAIN-SUFFIX,privateapi.xyz
   - DOMAIN-SUFFIX,psf0404.shop
+  - DOMAIN-SUFFIX,pterclub.net
   - DOMAIN-SUFFIX,ptlgs.org
   - DOMAIN-SUFFIX,pubsub.tech
   - DOMAIN-SUFFIX,pwithe.com

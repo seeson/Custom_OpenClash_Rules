@@ -16,6 +16,9 @@ REPOSITORY = "Aethersailor/Custom_OpenClash_Rules"
 BASE_NAMES = (
     "Custom_Direct",
     "Custom_Proxy",
+    "Custom_Unlock",
+    "Custom_Game",
+    "hddolby",
     "Steam_CDN",
     "Encrypted_DNS",
     "Game_Download_CDN",

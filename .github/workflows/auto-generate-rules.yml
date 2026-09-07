@@ -13,6 +13,11 @@ on:
     paths:
       - 'rule/Custom_Direct.list'
       - 'rule/Custom_Proxy.list'
+      - 'rule/Custom_Unlock.list'
+      - 'rule/Custom_Game.list'
+      - 'rule/hddolby.list'
+      - 'rule/Custom_Port.list'
+      - 'rule/XPTV.list'
       - 'rule/Steam_CDN.list'
       - 'rule/Encrypted_DNS.list'
       - 'rule/Game_Download_CDN.list'
@@ -134,9 +139,9 @@ jobs:
             python py/generate_stash_configs.py --check --target mainland
 
             unexpected_changes="$(
-              git status --short --untracked-files=all -- . \
-                "${generated_excludes[@]}"
-            )"
+                          git status --short --untracked-files=all -- . \
+                            "${generated_excludes[@]}"
+                        )"
             if [ -n "$unexpected_changes" ]; then
               echo "Generator modified files outside the derived-rule allowlist:" >&2
               printf '%s\n' "$unexpected_changes" >&2

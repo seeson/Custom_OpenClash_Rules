@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 831
+# TOTAL: 836
 
 payload:
   - '*m-team*'
@@ -37,6 +37,7 @@ payload:
   - '+.51tbox.com'
   - '+.51wanxue.com'
   - '+.51zmt.top'
+  - '+.52dic.vip'
   - '+.52jiawei.com'
   - '+.52met.com'
   - '+.52muban.com'
@@ -170,6 +171,7 @@ payload:
   - '+.chujingapp.com'
   - '+.chushi.cool'
   - '+.ciallo.party'
+  - '+.cinefiles.info'
   - '+.clivia.fun'
   - '+.cmbc.run'
   - '+.cmhk.com'
@@ -347,6 +349,8 @@ payload:
   - '+.hezuvip.com'
   - '+.hf-mirror.com'
   - '+.hfhs8x.info'
+  - '+.hg-cdn.com'
+  - '+.hhanclub.net'
   - '+.hhtvc.com'
   - '+.higgsweb.com'
   - '+.hijin.vip'
@@ -577,6 +581,7 @@ payload:
   - '+.ppt28.com'
   - '+.privateapi.xyz'
   - '+.psf0404.shop'
+  - '+.pterclub.net'
   - '+.ptlgs.org'
   - '+.pubsub.tech'
   - '+.pwithe.com'
