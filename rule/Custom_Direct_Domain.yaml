@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 851
+# TOTAL: 855
 
 payload:
   - '*m-team*'
@@ -13,6 +13,7 @@ payload:
   - '+.0734cn.top'
   - '+.0759mall.com'
   - '+.112114.xyz'
+  - '+.1145145.com'
   - '+.115cdn.de'
   - '+.123795.com'
   - '+.123clouddisk.com'
@@ -481,6 +482,8 @@ payload:
   - '+.lsbj365.com'
   - '+.lsposed.zip'
   - '+.lty02.com'
+  - '+.lucida.su'
+  - '+.lucida.to'
   - '+.lucky.gd'
   - '+.lyihub.com'
   - '+.lyilife.com'
@@ -855,3 +858,4 @@ payload:
   - '+.zzz-log-upload-os.hoyoverse.com'
   - '+.zzzcaculator.top'
   - '+.zzzmap.com'
+  - 'yinhai.aiinyue.com'
