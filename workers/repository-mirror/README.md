@@ -13,6 +13,16 @@
 - 状态接口：`GET /__mirror/status`
 - 定时任务：每小时执行一次
 
+## 费用与请求保护
+
+此实现不使用 Durable Object Alarm。监控开始前会保存时间戳，55 分钟内的重复触发返回已有状态；失败或对象重新加载也不会清除此保护。Cron 仍每小时执行一次。
+
+外部探测和 Cloudflare API 的超时覆盖响应正文读取，避免上游先返回响应头、随后停止传输时监控长期挂起。
+
+公开状态接口使用 `REQUEST_LIMITER`，默认限制同一 IP 在单个 Cloudflare 节点每分钟最多 120 次请求。绑定缺失或限流服务出错时返回 `503`，超限时返回 `429`，不会继续访问 Durable Object。静态文件仍由 Static Assets 直接提供。
+
+限流不是全账户费用上限。需要阻止 Workers、Durable Objects 和 D1 的超额计费时，应保留 Workers Free 套餐；免费额度耗尽会导致操作失败。付费套餐按超额用量计费，预算告警只通知、不停止用量。不要为此镜像启用 R2、Containers 或其他独立计费产品。
+
 备用快照包含根目录的 `README.md`、`LICENCE`，以及 `cfg/`（含 `cfg/yaml/`）、`icon/`、`overwrite/`、`rule/`、`script/`、`shell/`、`wiki/` 中的全部普通文件。各目录的 README 和 archived 内容也会保留。维护脚本目录 `.github/`、`py/` 以及只保存指针的第三方 Git 子模块不属于访客发布面。
 
 Wrangler 只注册以下路由，不接管 `git.asailor.org` 根路径或其他现有内容：
@@ -60,7 +70,7 @@ GitHub 仓库页面和 Raw 文件均可访问时，本轮记为成功，并保�
 
 ## 构建与部署
 
-仓库统一发布器从指定 Git 提交的 blob 生成 `dist/`，并执行公开文件契约、生成顺序、文件数量和单文件大小检查。Node.js 脚本只验证已有 `dist/` 与清单完全一致，不建立第二套资产选择规则。
+仓库统一发布器从指定 Git 提交的 blob 生成 `dist/`，并执行公开文件契约、生成顺序、文件数量和单文件大小检查。
 
 正式发布由 `.github/workflows/purge-jsdelivr.yml` 执行。直接发布从 GitHub Environment `cloudflare-production` 读取 Secret；自动更新器的嵌套可复用工作流使用同名 Repository Secret，并显式逐层继承：
 
@@ -71,7 +81,7 @@ GitHub 仓库页面和 Raw 文件均可访问时，本轮记为成功，并保�
 
 发布任务通过 Wrangler `--secrets-file` 将后两项保存为 Worker Secret。密钥值不会写入仓库文件或构建日志。
 
-本地只读验证不需要 Cloudflare 凭据：
+本地构建和部署预览不需要 Cloudflare 凭据：
 
 ```powershell
 $revision = git rev-parse HEAD
@@ -79,11 +89,10 @@ py -3 ..\..\.github\scripts\jsdelivr_purge.py build-worker-assets `
   --revision $revision `
   --output dist
 npm ci
-npm run check
-npx wrangler deploy --dry-run
+npm run dry-run
 ```
 
-从 `workers/repository-mirror` 目录运行以上命令。`dist/` 不提交到 Git；每次部署前必须重新生成。正式流程只部署已经通过精确 SHA 校验、仍为最新 `main` 的完整快照。
+从 `workers/repository-mirror` 目录运行以上命令。`dist/` 不提交到 Git；每次部署前必须重新生成。正式流程只部署仍为最新 `main` 的完整快照，并在部署后确认线上快照的提交 SHA。
 
 部署后检查：
 

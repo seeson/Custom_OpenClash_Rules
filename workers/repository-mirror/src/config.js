@@ -1,7 +1,6 @@
 export const MIRROR_CONFIG = Object.freeze({
   repository: "Aethersailor/Custom_OpenClash_Rules",
   branch: "main",
-  publicPrefix: "/Custom_OpenClash_Rules/main/",
   canaryPath: "rule/Custom_Direct.list",
   manifestPath: "/_mirror/Custom_OpenClash_Rules/main.json",
   githubApiUrl:
@@ -18,4 +17,5 @@ export const MIRROR_CONFIG = Object.freeze({
   probeTimeoutMs: 10_000,
   cloudflareApiTimeoutMs: 15_000,
   maxCanaryBytes: 5 * 1024 * 1024,
+  minMonitorIntervalMs: 55 * 60 * 1000,
 });

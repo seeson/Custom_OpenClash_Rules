@@ -1,66 +1,48 @@
-name: "CodeQL Advanced"
-
-on:
+name: CodeQL
+'on':
   push:
-    branches: ["main"]
-    # CodeQL 仅分析 Actions 与 Python；配置、规则和 Wiki 变更无需扫描。
-    paths:
-      - ".github/workflows/**"
-      - ".github/scripts/**"
-      - ".github/dependabot.yml"
-      - "py/**"
-      - "requirements*.txt"
-  pull_request:
-    branches: ["main"]
-    paths:
-      - ".github/workflows/**"
-      - ".github/scripts/**"
-      - ".github/dependabot.yml"
-      - "py/**"
-      - "requirements*.txt"
+    branches:
+    - '**'
+  pull_request: {}
   schedule:
-    # 每日执行一次完整扫描，以尽快获得最新 CodeQL 查询结果。
-    - cron: "17 2 * * *"
-  workflow_dispatch:
-
+  - cron: 17 3 * * *
+  workflow_dispatch: {}
 permissions:
-  actions: read
   contents: read
-  packages: read
-  security-events: write
-
 concurrency:
   group: codeql-${{ github.ref }}
   cancel-in-progress: true
-
 jobs:
   analyze:
     name: Analyze (${{ matrix.language }})
-    runs-on: ${{ (matrix.language == 'swift' && 'macos-latest') || 'ubuntu-latest' }}
-    timeout-minutes: 20
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    permissions:
+      contents: read
+      actions: read
+      security-events: write
     strategy:
       fail-fast: false
       matrix:
         include:
-          - language: actions
-            build-mode: none
-          - language: python
-            build-mode: none
+        - language: actions
+          build-mode: none
+        - language: javascript-typescript
+          build-mode: none
+        - language: python
+          build-mode: none
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
-        with:
-          fetch-depth: 2
-          persist-credentials: false
-
-      - name: Initialize CodeQL
-        uses: github/codeql-action/init@b96794f015dfd88f77b49b1c93e0fa7110f94c63 # v4
-        with:
-          languages: ${{ matrix.language }}
-          build-mode: ${{ matrix.build-mode }}
-          queries: security-extended,security-and-quality
-
-      - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@b96794f015dfd88f77b49b1c93e0fa7110f94c63 # v4
-        with:
-          category: "/language:${{ matrix.language }}"
+    - name: Checkout source
+      uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      with:
+        persist-credentials: false
+    - name: Initialize CodeQL
+      uses: github/codeql-action/init@9b3254085494b55a0f7c4c2b3d2d52cc712ce370 # v4
+      with:
+        languages: ${{ matrix.language }}
+        build-mode: ${{ matrix.build-mode }}
+        queries: security-and-quality
+    - name: Upload CodeQL results
+      uses: github/codeql-action/analyze@9b3254085494b55a0f7c4c2b3d2d52cc712ce370 # v4
+      with:
+        category: /language:${{ matrix.language }}

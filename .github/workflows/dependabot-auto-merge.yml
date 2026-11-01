@@ -1,132 +1,89 @@
 name: Dependabot auto-merge
 
 on:
-  workflow_run:
-    workflows:
-      - CodeQL Advanced
-      - Validate repository
-    types: [completed]
-    branches:
-      - 'dependabot/**'
+  pull_request_target:
+    branches: [main]
+    types: [opened, reopened, synchronize, ready_for_review]
+  push:
+    branches: [main]
+    paths: ['.github/workflows/dependabot-auto-merge.yml']
+  schedule:
+    - cron: '49 */6 * * *'
+  workflow_dispatch:
 
 permissions:
-  actions: read
-  checks: read
-  contents: read
-  pull-requests: read
+  contents: write
+  pull-requests: write
+  actions: write
 
 concurrency:
-  group: dependabot-automerge-${{ github.event.workflow_run.head_sha }}
-  cancel-in-progress: true
+  group: dependabot-auto-merge
+  cancel-in-progress: false
 
 jobs:
   merge:
-    if: github.event.workflow_run.event == 'pull_request' && github.event.workflow_run.conclusion == 'success'
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
+    if: github.event_name != 'pull_request_target' || github.event.pull_request.user.login == 'dependabot[bot]'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
     steps:
-      - name: Merge after required checks pass
-        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9
-        with:
-          github-token: ${{ secrets.GH_PAT }}
-          script: |
-            const run = context.payload.workflow_run;
-            const prSummary = run.pull_requests?.[0];
-            if (!prSummary) {
-              core.info("The completed workflow is not associated with a pull request.");
-              return;
-            }
+      - name: Merge Dependabot updates
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+          BASE_BRANCH: main
+        shell: bash
+        run: |
+          set -euo pipefail
+          pull_numbers=$(gh api --paginate --method GET "repos/$REPOSITORY/pulls" \
+            -f state=open -f base="$BASE_BRANCH" -F per_page=100 \
+            --jq '.[] | select(.user.login == "dependabot[bot]") | .number')
+          before_sha=$(gh api "repos/$REPOSITORY/git/ref/heads/$BASE_BRANCH" --jq '.object.sha')
+          merged_files='[]'
+          merged=0
+          result=0
+          while IFS= read -r number; do
+            test -n "$number" || continue
+            pull=$(gh api "repos/$REPOSITORY/pulls/$number")
+            head_sha=$(jq -r '.head.sha' <<<"$pull")
+            title=$(jq -r '.title' <<<"$pull")
+            files=$(gh api --paginate "repos/$REPOSITORY/pulls/$number/files?per_page=100" \
+              | jq -s '[.[][] | .filename]')
+            response=''
+            for attempt in 1 2 3; do
+              if response=$(gh api --method PUT "repos/$REPOSITORY/pulls/$number/merge" \
+                -f merge_method=squash -f sha="$head_sha" \
+                -f commit_title="$title (#$number)" 2>&1); then
+                break
+              fi
+              sleep 2
+            done
+            if jq -e '.merged == true' <<<"$response" >/dev/null 2>&1; then
+              echo "Merged Dependabot PR #$number: $(jq -r '.sha' <<<"$response")"
+              merged_files=$(jq -cn --argjson previous "$merged_files" --argjson current "$files" \
+                '$previous + $current | unique')
+              merged=$((merged + 1))
+            else
+              echo "::warning::GitHub could not merge Dependabot PR #$number: $response"
+              result=1
+            fi
+          done <<< "$pull_numbers"
 
-            const { owner, repo } = context.repo;
-            const { data: pr } = await github.rest.pulls.get({
-              owner,
-              repo,
-              pull_number: prSummary.number,
-            });
-            const labels = pr.labels.map((label) => label.name);
-            if (
-              pr.user.login !== "dependabot[bot]" ||
-              pr.base.ref !== context.payload.repository.default_branch ||
-              pr.head.repo?.full_name !== `${owner}/${repo}` ||
-              pr.draft ||
-              !labels.includes("automerge")
-            ) {
-              core.info(`PR #${pr.number} is not eligible for automatic merge.`);
-              return;
-            }
-            if (pr.state !== "open" || pr.head.sha !== run.head_sha) {
-              core.info(`PR #${pr.number} is closed or no longer points at ${run.head_sha}.`);
-              return;
-            }
+          # Repository-token merges need an explicit follow-up workflow dispatch.
+          if (( merged > 0 )); then
+            gh workflow run codeql.yml --repo "$REPOSITORY" --ref "$BASE_BRANCH" || result=1
+            if jq -e 'any(.[]; . as $path | reduce ([{"regex":"^rule/Custom_Direct\\.list$","include":true},{"regex":"^rule/Custom_Proxy\\.list$","include":true},{"regex":"^rule/Steam_CDN\\.list$","include":true},{"regex":"^rule/Encrypted_DNS\\.list$","include":true},{"regex":"^rule/Game_Download_CDN\\.list$","include":true},{"regex":"^rule/game_rule/(?:.*/)?[^/]*\\.list$","include":true},{"regex":"^py/generate_rules\\.py$","include":true},{"regex":"^cfg/Custom_Clash\\.ini$","include":true}][]) as $pattern (false; if ($path | test($pattern.regex)) then $pattern.include else . end))' <<<"$merged_files" >/dev/null; then
+              gh workflow run 'auto-generate-rules.yml' --repo "$REPOSITORY" --ref "$BASE_BRANCH" || result=1
+            fi
+            if jq -e 'any(.[]; . as $path | reduce ([{"regex":"^rule/Steam_CDN\\.list$","include":true},{"regex":"^py/generate_game_cdn\\.py$","include":true}][]) as $pattern (false; if ($path | test($pattern.regex)) then $pattern.include else . end))' <<<"$merged_files" >/dev/null; then
+              gh workflow run 'auto-update-game-cdn.yml' --repo "$REPOSITORY" --ref "$BASE_BRANCH" || result=1
+            fi
+            if jq -e 'any(.[]; . as $path | reduce ([{"regex":"^wiki/.*$","include":true},{"regex":"^mkdocs\\.yml$","include":true},{"regex":"^requirements\\-docs\\.txt$","include":true},{"regex":"^\\.github/workflows/pages\\.yml$","include":true}][]) as $pattern (false; if ($path | test($pattern.regex)) then $pattern.include else . end))' <<<"$merged_files" >/dev/null; then
+              gh workflow run 'pages.yml' --repo "$REPOSITORY" --ref "$BASE_BRANCH" || result=1
+            fi
+            if jq -e true <<<"$merged_files" >/dev/null; then
+              gh workflow run 'purge-jsdelivr.yml' --repo "$REPOSITORY" --ref "$BASE_BRANCH" -f before_sha="$before_sha" || result=1
+            fi
+          fi
 
-            const requiredChecks = new Set([
-              "Analyze (actions)",
-              "Analyze (python)",
-              "CodeQL",
-              "dependency-review",
-              "validate",
-            ]);
-            const maxAttempts = 30;
-            let checks;
-            for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
-              const { data } = await github.rest.checks.listForRef({
-                owner,
-                repo,
-                ref: pr.head.sha,
-                filter: "latest",
-                per_page: 100,
-              });
-              checks = new Map(
-                data.check_runs
-                  .filter((check) => requiredChecks.has(check.name))
-                  .map((check) => [check.name, check])
-              );
-              const missing = [...requiredChecks].filter((name) => !checks.has(name));
-              const pending = [...checks.values()].filter(
-                (check) => check.status !== "completed"
-              );
-              if (missing.length === 0 && pending.length === 0) {
-                break;
-              }
-              if (attempt === maxAttempts) {
-                core.setFailed(
-                  `Timed out waiting for checks. Missing: ${missing.join(", ") || "none"}; pending: ${pending.map((check) => check.name).join(", ") || "none"}`
-                );
-                return;
-              }
-              core.info(
-                `Waiting for checks (${attempt}/${maxAttempts}). Missing: ${missing.join(", ") || "none"}; pending: ${pending.map((check) => check.name).join(", ") || "none"}`
-              );
-              await new Promise((resolve) => setTimeout(resolve, 10000));
-            }
-
-            const failed = [...checks.values()].filter(
-              (check) => check.conclusion !== "success"
-            );
-            if (failed.length > 0) {
-              core.setFailed(
-                `Required checks failed: ${failed.map((check) => `${check.name}=${check.conclusion}`).join(", ")}`
-              );
-              return;
-            }
-
-            const { data: currentPr } = await github.rest.pulls.get({
-              owner,
-              repo,
-              pull_number: pr.number,
-            });
-            if (currentPr.state !== "open" || currentPr.head.sha !== pr.head.sha) {
-              core.info(`PR #${pr.number} changed while checks were running; refusing to merge.`);
-              return;
-            }
-
-            const { data: result } = await github.rest.pulls.merge({
-              owner,
-              repo,
-              pull_number: pr.number,
-              merge_method: "squash",
-              sha: pr.head.sha,
-            });
-            if (!result.merged) {
-              core.setFailed(result.message || "GitHub did not merge the pull request.");
-            }
+          echo "Merged $merged Dependabot PR(s) with the repository Actions token"
+          exit "$result"

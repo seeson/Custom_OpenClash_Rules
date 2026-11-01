@@ -23,15 +23,7 @@ on:
       - 'rule/Game_Download_CDN.list'
       - 'rule/game_rule/**/*.list'
       - 'py/generate_rules.py'
-      - 'py/generate_stash_configs.py'
       - 'cfg/Custom_Clash.ini'
-      - 'cfg/Custom_Clash_Fallback.ini'
-      - 'cfg/Custom_Clash_Lite.ini'
-      - 'cfg/Custom_Clash_Lite_Fallback.ini'
-      - 'cfg/Custom_Clash_GFW.ini'
-      - 'cfg/Custom_Clash_GFW_Fallback.ini'
-      - 'cfg/Custom_Clash_Full.ini'
-      - 'cfg/Custom_Clash_Full_Fallback.ini'
   workflow_dispatch:
     inputs:
       source_before_sha:
@@ -59,7 +51,7 @@ jobs:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
           python-version: '3.13'
 
@@ -87,16 +79,6 @@ jobs:
 
       - name: Set up pinned Mihomo
         uses: ./.github/actions/setup-mihomo
-
-      - name: Generate derived rules and Mainland compatibility template
-        run: |
-          python py/generate_rules.py --mihomo mihomo
-          python py/generate_stash_configs.py --target mainland
-
-      - name: Test generation and conversion logic
-        run: |
-          python py/generate_rules.py --check --mihomo mihomo
-          python py/generate_stash_configs.py --check --target mainland
 
       - name: Commit and push changes
         id: publish
@@ -131,9 +113,7 @@ jobs:
             git fetch --no-tags origin main
             git reset --hard origin/main
             python py/generate_rules.py --mihomo mihomo
-            python py/generate_rules.py --check --mihomo mihomo
-            python py/generate_stash_configs.py --target mainland
-            python py/generate_stash_configs.py --check --target mainland
+            cp cfg/Custom_Clash.ini cfg/Custom_Clash_Mainland.ini
 
             unexpected_changes="$(
               git status --short --untracked-files=all -- . \
@@ -186,3 +166,15 @@ jobs:
 
           echo "Final revision to publish: $publication_sha"
           echo "publication_sha=$publication_sha" >> "$GITHUB_OUTPUT"
+
+  # Purge the cache keys belonging to the published generation result.
+  purge-generated:
+    needs: generate-rules
+    permissions:
+      contents: read
+    uses: ./.github/workflows/purge-jsdelivr.yml
+    secrets: inherit
+    with:
+      before_sha: ${{ needs.generate-rules.outputs.purge_base_sha }}
+      after_sha: ${{ needs.generate-rules.outputs.publication_sha }}
+      generation_complete: true

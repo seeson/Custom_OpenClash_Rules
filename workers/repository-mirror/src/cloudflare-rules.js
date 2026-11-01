@@ -36,39 +36,48 @@ async function cloudflareJson(env, path, init = {}) {
       },
     });
   } catch (error) {
+    clearTimeout(timeout);
     const code =
       controller.signal.aborted || error?.name === "AbortError"
         ? "cloudflare_api_timeout"
         : "cloudflare_api_unavailable";
     throw new MirrorRuleError(code, code);
+  }
+
+  try {
+    let payload;
+    try {
+      payload = await response.json();
+    } catch (error) {
+      if (controller.signal.aborted || error?.name === "AbortError") {
+        throw new MirrorRuleError(
+          "cloudflare_api_timeout",
+          "cloudflare_api_timeout",
+        );
+      }
+      throw new MirrorRuleError(
+        "cloudflare_api_invalid_response",
+        `Cloudflare API returned HTTP ${response.status} without a JSON envelope`,
+      );
+    }
+
+    if (!response.ok || payload?.success !== true || !payload.result) {
+      const apiMessage = Array.isArray(payload?.errors)
+        ? payload.errors
+            .map((entry) => String(entry?.message ?? ""))
+            .filter(Boolean)
+            .join("; ")
+        : "";
+      throw new MirrorRuleError(
+        "cloudflare_api_error",
+        `Cloudflare API returned HTTP ${response.status}${apiMessage ? `: ${apiMessage}` : ""}`,
+      );
+    }
+
+    return payload.result;
   } finally {
     clearTimeout(timeout);
   }
-
-  let payload;
-  try {
-    payload = await response.json();
-  } catch {
-    throw new MirrorRuleError(
-      "cloudflare_api_invalid_response",
-      `Cloudflare API returned HTTP ${response.status} without a JSON envelope`,
-    );
-  }
-
-  if (!response.ok || payload?.success !== true || !payload.result) {
-    const apiMessage = Array.isArray(payload?.errors)
-      ? payload.errors
-          .map((entry) => String(entry?.message ?? ""))
-          .filter(Boolean)
-          .join("; ")
-      : "";
-    throw new MirrorRuleError(
-      "cloudflare_api_error",
-      `Cloudflare API returned HTTP ${response.status}${apiMessage ? `: ${apiMessage}` : ""}`,
-    );
-  }
-
-  return payload.result;
 }
 
 function entrypointPath(env) {
@@ -159,7 +168,9 @@ async function rollbackDefinitions(env, originals) {
         );
       }
     } catch (error) {
-      rollbackErrors.push(error instanceof Error ? error.message : String(error));
+      rollbackErrors.push(
+        error instanceof Error ? error.message : String(error),
+      );
     }
   }
 
@@ -196,8 +207,6 @@ export async function reconcileRedirectRules(env, desiredEnabled) {
     return {
       enabled: desiredEnabled,
       changed: false,
-      changedRefs: [],
-      rulesetVersion: initialRuleset.version ?? null,
     };
   }
 
@@ -231,15 +240,14 @@ export async function reconcileRedirectRules(env, desiredEnabled) {
     return {
       enabled: desiredEnabled,
       changed: true,
-      changedRefs: refsToChange,
-      rulesetVersion: readback.version ?? null,
     };
   } catch (error) {
     // Cloudflare does not expose a transactional multi-rule PATCH endpoint.
     // Restore both original definitions because a timed-out PATCH may still
     // have reached the API even when the response was not observed.
     const rollbackErrors = await rollbackDefinitions(env, originals);
-    const originalMessage = error instanceof Error ? error.message : String(error);
+    const originalMessage =
+      error instanceof Error ? error.message : String(error);
     const rollbackMessage =
       rollbackErrors.length === 0
         ? "compensating rollback succeeded"
