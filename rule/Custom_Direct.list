@@ -197,7 +197,7 @@ DOMAIN-SUFFIX,sdk-log-upload-os.hoyoverse.com
 DOMAIN-SUFFIX,zzz-log-upload-os.hoyoverse.com
 DOMAIN-SUFFIX,minor-api-os.hoyoverse.com
 # 明日方舟
-DOMAIN-SUFFIX,hg-cdn.com
+# DOMAIN-SUFFIX,hg-cdn.com
 
 # 微软模拟飞行2024
 DOMAIN-SUFFIX,sunrisecontent.akamaized.net
@@ -230,6 +230,8 @@ DOMAIN-SUFFIX,52dic.vip
 DOMAIN-SUFFIX,pterclub.net
 # 憨憨
 DOMAIN-SUFFIX,hhanclub.net
+# HDWING
+DOMAIN-SUFFIX,hdwing.org
 
 # 手机淘宝临时修复
 IP-CIDR,47.246.99.0/24,no-resolve
